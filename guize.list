@@ -1,8 +1,6 @@
 host, appraven.net, ✅自用直连
 host, jiali.tcwsq.cn, ⛔️自用禁连
-host, xp.apple.com, 苹果服务
 host, img.jswhpx.cn, ⛔️自用禁连
-host, inappcheck.itunes.apple.com, ♻️自用节选
 host, ift.tt, ♻️自用节选
 host, my.nicegram.app, ♻️自用节选
 host, validator.nicegram.app, ♻️自用节选
@@ -12,7 +10,7 @@ host, ghproxy.com, ♻️自用节选
 host-suffix, highwebmedia.com, ♻️自用节选
 host, m.chaturbate.com, ♻️自用节选
 host, api.trakt.tv, ♻️自用节选
-host-suffix, savieo.com, 节点选择
+host-suffix, savieo.com, ♻️自用节选
 host-keyword, amemv.com, ✅自用直连
 
 # > PayPal
