@@ -2,7 +2,6 @@ host, appraven.net, ✅自用直连
 host, jiali.tcwsq.cn, ⛔️自用禁连
 host, img.jswhpx.cn, ⛔️自用禁连
 host, ift.tt, ♻️自用节选
-host, my.nicegram.app, ♻️自用节选
 host, validator.nicegram.app, ♻️自用节选
 host, jdsharedresourcescdn.azureedge.net, ♻️自用节选
 host, www.ccsub.cc, ♻️自用节选
@@ -12,13 +11,36 @@ host, m.chaturbate.com, ♻️自用节选
 host, api.trakt.tv, ♻️自用节选
 host-suffix, savieo.com, ♻️自用节选
 host-keyword, amemv.com, ✅自用直连
+host, www.cordcloud.one, ♻️自用节选
 
 # > PayPal
 USER-AGENT,PayPal*,Paypal
 DOMAIN-SUFFIX,paypal.com,Paypal
 DOMAIN-SUFFIX,paypal.me,Paypal
 DOMAIN-SUFFIX,paypalobjects.com,Paypal
-host, www.cordcloud.one, ♻️自用节选
+
 # >emby
 host, emby.cjpc.cc, Emby
 host, 134.195.101.38, Emby
+# > Telegram
+DOMAIN-SUFFIX,telegra.ph,Telegram
+DOMAIN-SUFFIX,telegram.org,Telegram
+IP-CIDR,91.108.4.0/22,Telegram
+IP-CIDR,91.108.8.0/22,Telegram
+IP-CIDR,91.108.12.0/22,Telegram
+IP-CIDR,91.108.16.0/22,Telegram
+IP-CIDR,91.108.20.0/22,Telegram
+IP-CIDR,91.108.56.0/22,Telegram
+IP-CIDR,91.105.192.0/23,Telegram
+IP-CIDR,149.154.160.0/20,Telegram
+IP-CIDR,185.76.151.0/24,Telegram
+IP6-CIDR,2001:b28:f23d::/48,Telegram
+IP6-CIDR,2001:b28:f23f::/48,Telegram
+IP6-CIDR,2001:67c:4e8::/48,Telegram
+IP6-CIDR,2001:b28:f23c::/48,Telegram
+IP6-CIDR,2a0a:f280::/32,Telegram
+DOMAIN-SUFFIX,t.me,Telegram
+DOMAIN-SUFFIX,tdesktop.com,Telegram
+DOMAIN-SUFFIX,telegram.me,Telegram
+DOMAIN-SUFFIX,telesco.pe,Telegram
+host, my.nicegram.app,Telegram
