@@ -19,4 +19,6 @@ DOMAIN-SUFFIX,paypal.com,Paypal
 DOMAIN-SUFFIX,paypal.me,Paypal
 DOMAIN-SUFFIX,paypalobjects.com,Paypal
 host, www.cordcloud.one, ♻️自用节选
+# >emby
 host, emby.cjpc.cc, Emby
+host, 134.195.101.38, Emby
