@@ -24,3 +24,32 @@ IP-CIDR,144.178.0.0/19,no-resolve
 IP-CIDR,192.35.50.0/24,no-resolve
 IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
+
+# —(Apple)—
+DOMAIN-SUFFIX,appsto.re,苹果服务
+DOMAIN,books.itunes.apple.com,苹果服务
+DOMAIN-SUFFIX,smoot.apple.com,苹果服务
+DOMAIN,beta.music.apple.com,苹果服务
+DOMAIN,lookup-api.apple.com,苹果服务
+# > Apple
+DOMAIN,appleid.apple.com,苹果服务
+DOMAIN,developer.apple.com,苹果服务
+DOMAIN,www.icloud.com,苹果服务
+DOMAIN,ocsp.apple.com,苹果服务
+# > News
+DOMAIN,gateway.icloud.com,苹果服务
+DOMAIN-SUFFIX,apple.news,苹果服务
+DOMAIN,news-assets.apple.com,苹果服务
+DOMAIN,news-client.apple.com,苹果服务
+DOMAIN,news-client-search.apple.com,苹果服务
+DOMAIN,news-edge.apple.com,苹果服务
+DOMAIN,news-events.apple.com,苹果服务
+DOMAIN,apple.comscoreresearch.com,苹果服务
+# > Web Preview
+DOMAIN,apps.apple.com,苹果服务
+DOMAIN,books.apple.com,苹果服务
+DOMAIN,itunes.apple.com,苹果服务
+DOMAIN,tv.apple.com,苹果服务
+# > Podcasts
+DOMAIN,amp-api.podcasts.apple.com,苹果服务
+DOMAIN,bookkeeper.itunes.apple.com,苹果服务
