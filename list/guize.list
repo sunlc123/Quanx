@@ -30,6 +30,31 @@ HOST-SUFFIX,telegram.me,Telegram
 HOST-SUFFIX,telesco.pe,Telegram
 host, my.nicegram.app,Telegram
 host, validator.nicegram.app, Telegram
+# > Google
+HOST-SUFFIX,appspot.com,Google
+HOST-SUFFIX,blogger.com,Google
+HOST-SUFFIX,getoutline.org,Google
+HOST-SUFFIX,gvt0.com,Google
+HOST-SUFFIX,gvt1.com,Google
+HOST-SUFFIX,gvt3.com,Google
+HOST-SUFFIX,xn—ngstr-lra8j.com,Google
+HOST-SUFFIX,ytimg.com,Google
+HOST-KEYWORD,google,Google
+HOST-KEYWORD,.blogspot.,Google
+IP-CIDR,35.190.247.0/24,Google
+IP-CIDR,64.233.160.0/19,Google
+IP-CIDR,66.102.0.0/20,Google
+IP-CIDR,66.249.80.0/20,Google
+IP-CIDR,72.14.192.0/18,Google
+IP-CIDR,74.125.0.0/16,Google
+IP-CIDR,108.177.8.0/21,Google
+IP-CIDR,172.217.0.0/16,Google
+IP-CIDR,173.194.0.0/16,Google
+IP-CIDR,209.85.128.0/17,Google
+IP-CIDR,216.58.192.0/19,Google
+IP-CIDR,216.239.32.0/19,Google
+HOST-SUFFIX,go.dev,Google
+HOST-SUFFIX,golang.org,Google
 
 host, appraven.net, ✅自用直连
 host, jiali.tcwsq.cn, ⛔️自用禁连
