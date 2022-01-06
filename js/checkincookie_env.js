@@ -1,5 +1,3 @@
-# 0 1 0 * * * https://raw.githubusercontent.com/sunlc123/Quanx/main/js/checkin_env.js
-
 /*
 Check in for Surge by Neurogram
 
@@ -19,7 +17,7 @@ GitHub: Neurogram-R
 【机场签到Cookie版】修改自Neurogram
 Modified by evilbutcher
 
-【仓库地址】  https://github.com/evilbutcher/Quantumult_X/tree/master（欢迎star🌟）
+【仓库地址】https://github.com/evilbutcher/Quantumult_X/tree/master（欢迎star🌟）
 
 【BoxJs】https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/evilbutcher.boxjs.json
 
@@ -36,56 +34,77 @@ Modified by evilbutcher
 6、如果任何单位或个人认为此脚本可能涉嫌侵犯其权利，应及时通知并提供身份证明，所有权证明，我们将在收到认证文件确认后删除此脚本。
 7、所有直接或间接使用、查看此脚本的人均应该仔细阅读此声明。本人保留随时更改或补充此声明的权利。一旦您使用或复制了此脚本，即视为您已接受此免责声明。
 
-自行写cron，例如 0 1 0 * * * https://raw.githubusercontent.com/sunlc123/Quanx/main/js/checkin_env.js
+【此版本为尝试用Cookie签到，针对有登陆验证或跳转的机场】
+
+⚠️【必读】⚠️【必读】⚠️【必读】⚠️
+‼️此处说明过的内容将不再解答‼️
+
+①需要将你的将机场域名加入mitm，例如cccat的域名为cccat.io，则hostname = cccat.io
+
+②添加属于你自己的配置（重写/脚本），例如cccat👇
+
+【Quantumult X】
+----------------
+[rewrite_local]
+https:\/\/cccat\.io url script-request-header https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+（其中https:\/\/cccat\.io需要替换为你自己的机场链接）
+
+[task_local]
+5 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+
+【Surge】
+----------------
+[Script]
+获取Cookie = type=http-request, pattern=https:\/\/cccat\.io, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+（其中https:\/\/cccat\.io需要替换为你自己的机场链接）
+
+机场签到Cookie版 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+
+【Loon】
+----------------
+[Script]
+http-request https:\/\/cccat\.io tag=获取Cookie, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+（其中https:\/\/cccat\.io需要替换为你自己的机场链接）
+
+cron "5 0 * * *" tag=机场签到Cookie版, script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+
+③BoxJs中，填入机场登陆链接。
+
+④配置好后，手动签到一次，提示Cookie获取成功，如无第二个机场即可禁用Cookie获取。
+
+⑤此时返回BoxJs中查看，Cookie和URL都有数据，即可保存会话。如有需要再重复1-4，获取第二个机场的Cookie（记得更改url为第二个机场对应的登陆链接）。
 
 */
-const $ = new Env("机场签到");
-$.autoLogout = true;
+const $ = new Env("机场签到Cookie版");
+const signurl = "evil_checkinurl";
+const signcookie = "evil_checkincookie";
 
-if (
-  $.getdata("evil_checkintitle") != undefined &&
-  $.getdata("evil_checkintitle") != ""
-) {
-  var acc = $.getdata("evil_checkintitle");
-  accounts = acc.split("，");
-} else {
-  $.msg("机场签到", "", "请在 BoxJs 检查标题填写是否正确", "http://boxjs.com");
-}
-
-if (
-  $.getdata("evil_checkinlogin") != undefined &&
-  $.getdata("evil_checkinlogin") != ""
-) {
-  var ur = $.getdata("evil_checkinlogin");
-  urls = ur.split("，");
-} else {
-  $.msg("机场签到", "", "请在 BoxJs 检查链接填写是否正确", "http://boxjs.com");
-}
-
-if (
-  $.getdata("evil_checkinemail") != undefined &&
-  $.getdata("evil_checkinemail") != ""
-) {
-  var ema = $.getdata("evil_checkinemail");
-  emails = ema.split("，");
-} else {
-  $.msg("机场签到", "", "请在 BoxJs 检查邮箱填写是否正确", "http://boxjs.com");
-}
-
-if (
-  $.getdata("evil_checkinpwd") != undefined &&
-  $.getdata("evil_checkinpwd") != ""
-) {
-  var pwd = $.getdata("evil_checkinpwd");
-  passwords = pwd.split("，");
-} else {
-  $.msg("机场签到", "", "请在 BoxJs 检查密码填写是否正确", "http://boxjs.com");
-}
-
-$.autoLogout = JSON.parse($.getdata("evil_autoLogout") || $.autoLogout);
+var siurl = $.getdata(signurl);
+var sicookie = $.getdata(signcookie);
 
 !(async () => {
-  await launch();
+  if (typeof $request != "undefined") {
+    getCookie();
+    return;
+  }
+  if (
+    siurl == undefined ||
+    siurl == "" ||
+    sicookie == undefined ||
+    sicookie == ""
+  ) {
+    $.msg(
+      "机场签到Cookie版",
+      "",
+      "❌请在 BoxJs 检查填写是否正确或是否获取到Cookie",
+      "http://boxjs.com"
+    );
+  }
+  var name = $.getdata("evil_checkincktitle");
+  if (name == undefined || name == "") {
+    name = "机场签到Cookie版";
+  }
+  checkin(siurl, sicookie, name);
 })()
   .catch((e) => {
     $.log("", `❌失败! 原因: ${e}!`, "");
@@ -94,161 +113,92 @@ $.autoLogout = JSON.parse($.getdata("evil_autoLogout") || $.autoLogout);
     $.done();
   });
 
-async function launch() {
-  for (var i in accounts) {
-    let title = accounts[i];
-    let url = urls[i];
-    let email = emails[i];
-    let password = passwords[i];
-    if ($.autoLogout) {
-      let logoutPath =
-        url.indexOf("auth/login") != -1 ? "user/logout" : "user/logout.php";
-      var logouturl = {
-        url: url.replace(/(auth|user)\/login(.php)*/g, "") + logoutPath,
-      };
-      console.log(JSON.stringify(logouturl));
-      $.get(logouturl);
-    }
-    await checkin(url, email, password, title);
-    if ($.checkinok == true) {
-      await dataResults(url, $.checkindatamsg, title);
-    } else {
-      await login(url, email, password, title);
-      if ($.loginok == true) {
-        await checkin(url, email, password, title);
-        if ($.checkinok == true) {
-          await dataResults(url, $.checkindatamsg, title);
-        }
-      }
-    }
-  }
-}
-
-function login(url, email, password, title) {
-  let loginPath =
-    url.indexOf("auth/login") != -1 ? "auth/login" : "user/_login.php";
-  let table = {
-    url:
-      url.replace(/(auth|user)\/login(.php)*/g, "") +
-      loginPath +
-      `?email=${email}&passwd=${password}&rumber-me=week`,
-  };
-  console.log(loginPath + " 保护隐私隐去登录信息");
-  return new Promise((resolve) => {
-    $.post(table, function (error, response, data) {
-      if (error) {
-        console.log(JSON.stringify(error));
-        $.msg(title + "登录失败", JSON.stringify(error), "");
-        resolve();
-      } else {
-        if (
-          JSON.parse(data).msg.match(
-            /邮箱或者密码错误|Mail or password is incorrect/
-          )
-        ) {
-          console.log(response);
-          $.msg(title + "邮箱或者密码错误", "", "");
-          $.loginok = false;
-        } else {
-          $.loginok = true;
-          $.log("登陆成功");
-        }
-        resolve();
-      }
-    });
-  });
-}
-
-function checkin(url, email, password, title) {
+function checkin(url, cookie, name) {
   let checkinPath =
     url.indexOf("auth/login") != -1 ? "user/checkin" : "user/_checkin.php";
-  var checkinreqest = {
-    url: url.replace(/(auth|user)\/login(.php)*/g, "") + checkinPath,
+  var checkinurl = url.replace(/(auth|user)\/login(.php)*/g, "") + checkinPath;
+  var checkinrequest = {
+    url: checkinurl,
+    headers: { Cookie: cookie },
   };
-  console.log(JSON.stringify(checkinreqest));
-  return new Promise((resolve) => {
-    $.post(checkinreqest, function (error, response, data) {
-      if (error) {
-        console.log(JSON.stringify(error));
-        $.msg(title + "签到失败", JSON.stringify(error), "");
-        resolve();
+  console.log(checkinrequest);
+  $.post(checkinrequest, (error, response, data) => {
+    if (error) {
+      console.log(error);
+      $.msg(name, "签到失败", error);
+    } else {
+      if (data.match(/\"msg\"\:/)) {
+        dataResults(url, cookie, JSON.parse(data).msg, name);
+        console.log(JSON.parse(data).msg);
+      } else if (data.match(/login/)) {
+        console.log(data);
+        $.msg(name, "", "⚠️Cookie失效啦，请重新获取Cookie");
       } else {
-        if (data.match(/\"msg\"\:/)) {
-          $.checkinok = true;
-          $.checkindatamsg = JSON.parse(data).msg;
-          $.log("签到成功");
-        } else {
-          $.checkinok = false;
-          $.log("签到失败");
-        }
-        resolve();
+        console.log(data);
+        $.msg(name, "", "⚠️签到失败，某些地方出错啦，请查看日志");
       }
-    });
+    }
   });
 }
 
-function dataResults(url, checkinMsg, title) {
+function dataResults(url, cookie, checkinMsg, name) {
   let userPath = url.indexOf("auth/login") != -1 ? "user" : "user/index.php";
   var datarequest = {
     url: url.replace(/(auth|user)\/login(.php)*/g, "") + userPath,
+    headers: { Cookie: cookie },
   };
-  console.log(JSON.stringify(datarequest));
-  return new Promise((resolve) => {
-    $.get(datarequest, function (error, response, data) {
-      let resultData = "";
-      let result = [];
-      if (data.match(/theme\/malio/)) {
-        let flowInfo = data.match(/trafficDountChat\s*\(([^\)]+)/);
-        if (flowInfo) {
-          let flowData = flowInfo[1].match(/\d[^\']+/g);
-          let usedData = flowData[0];
-          let todatUsed = flowData[1];
-          let restData = flowData[2];
-          result.push(
-            `今日：${todatUsed}\n已用：${usedData}\n剩余：${restData}`
-          );
-        }
-        let userInfo = data.match(/ChatraIntegration\s*=\s*({[^}]+)/);
-        if (userInfo) {
-          let user_name = userInfo[1].match(/name.+'(.+)'/)[1];
-          let user_class = userInfo[1].match(/Class.+'(.+)'/)[1];
-          let class_expire = userInfo[1].match(/Class_Expire.+'(.+)'/)[1];
-          let money = userInfo[1].match(/Money.+'(.+)'/)[1];
-          result.push(
-            `用户名：${user_name}\n用户等级：lv${user_class}\n余额：${money}\n到期时间：${class_expire}`
-          );
-        }
-        if (result.length != 0) {
-          resultData = result.join("\n\n");
-        }
-      } else {
-        let todayUsed = data.match(/>*\s*今日(已用|使用)*[^B]+/);
-        if (todayUsed) {
-          todayUsed = flowFormat(todayUsed[0]);
-          result.push(`今日：${todayUsed}`);
-        }
-        let usedData = data.match(
-          /(Used Transfer|>过去已用|>已用|>总已用|\"已用)[^B]+/
-        );
-        if (usedData) {
-          usedData = flowFormat(usedData[0]);
-          result.push(`已用：${usedData}`);
-        }
-        let restData = data.match(
-          /(Remaining Transfer|>剩余流量|>流量剩余|>可用|\"剩余)[^B]+/
-        );
-        if (restData) {
-          restData = flowFormat(restData[0]);
-          result.push(`剩余：${restData}`);
-        }
-        if (result.length != 0) {
-          resultData = result.join("\n");
-        }
+  console.log(datarequest);
+  $.get(datarequest, (error, response, data) => {
+    let resultData = "";
+    let result = [];
+    if (data.match(/theme\/malio/)) {
+      let flowInfo = data.match(/trafficDountChat\s*\(([^\)]+)/);
+      if (flowInfo) {
+        let flowData = flowInfo[1].match(/\d[^\']+/g);
+        let usedData = flowData[0];
+        let todatUsed = flowData[1];
+        let restData = flowData[2];
+        result.push(`今日：${todatUsed}\n已用：${usedData}\n剩余：${restData}`);
       }
-      let flowMsg = resultData == "" ? "流量信息获取失败" : resultData;
-      $.msg(title, checkinMsg, flowMsg);
-      resolve();
-    });
+      let userInfo = data.match(/ChatraIntegration\s*=\s*({[^}]+)/);
+      if (userInfo) {
+        let user_name = userInfo[1].match(/name.+'(.+)'/)[1];
+        let user_class = userInfo[1].match(/Class.+'(.+)'/)[1];
+        let class_expire = userInfo[1].match(/Class_Expire.+'(.+)'/)[1];
+        let money = userInfo[1].match(/Money.+'(.+)'/)[1];
+        result.push(
+          `用户名：${user_name}\n用户等级：lv${user_class}\n余额：${money}\n到期时间：${class_expire}`
+        );
+      }
+      if (result.length != 0) {
+        resultData = result.join("\n\n");
+      }
+    } else {
+      let todayUsed = data.match(/>*\s*今日(已用|使用)*[^B]+/);
+      if (todayUsed) {
+        todayUsed = flowFormat(todayUsed[0]);
+        result.push(`今日：${todayUsed}`);
+      }
+      let usedData = data.match(
+        /(Used Transfer|>过去已用|>已用|>总已用|\"已用)[^B]+/
+      );
+      if (usedData) {
+        usedData = flowFormat(usedData[0]);
+        result.push(`已用：${usedData}`);
+      }
+      let restData = data.match(
+        /(Remaining Transfer|>剩余流量|>流量剩余|>可用|\"剩余)[^B]+/
+      );
+      if (restData) {
+        restData = flowFormat(restData[0]);
+        result.push(`剩余：${restData}`);
+      }
+      if (result.length != 0) {
+        resultData = result.join("\n");
+      }
+    }
+    let flowMsg = resultData == "" ? "流量信息获取失败" : resultData;
+    $.msg(name, checkinMsg, flowMsg);
   });
 }
 
@@ -256,6 +206,15 @@ function flowFormat(data) {
   data = data.replace(/\d+(\.\d+)*%/, "");
   let flow = data.match(/\d+(\.\d+)*\w*/);
   return flow[0] + "B";
+}
+
+function getCookie() {
+  if ($request && $request.method != "OPTIONS" && $request.url.match(/check/)) {
+    const sicookie = $request.headers["Cookie"];
+    console.log(sicookie);
+    $.setdata(sicookie, signcookie);
+    $.msg("机场签到Cookie版", "", "获取Cookie成功🎉");
+  }
 }
 
 //From chavyleung's Env.js
