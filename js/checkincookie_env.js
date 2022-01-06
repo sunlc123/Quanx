@@ -46,11 +46,11 @@ Modified by evilbutcher
 【Quantumult X】
 ----------------
 [rewrite_local]
-https:\/\/cccat\.io url script-request-header https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
-（其中https:\/\/cccat\.io需要替换为你自己的机场链接）
+https:\/\/cordcloud\.one url script-request-header https://raw.githubusercontent.com/sunlc123/Quanx/main/js/checkincookie_env.js
+（其中https:\/\/cordcloud\.one需要替换为你自己的机场链接）
 
 [task_local]
-5 0 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+5 0 * * * https://raw.githubusercontent.com/sunlc123/Quanx/main/js/checkincookie_env.js
 
 【Surge】
 ----------------
