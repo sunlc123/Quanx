@@ -1,17 +1,3 @@
-host, appraven.net, ✅自用直连
-host, jiali.tcwsq.cn, ⛔️自用禁连
-host, img.jswhpx.cn, ⛔️自用禁连
-host, ift.tt, ♻️自用节选
-host, jdsharedresourcescdn.azureedge.net, ♻️自用节选
-host, www.ccsub.cc, ♻️自用节选
-host, ghproxy.com, ♻️自用节选
-host-suffix, highwebmedia.com, ♻️自用节选
-host, m.chaturbate.com, ♻️自用节选
-host, api.trakt.tv, ♻️自用节选
-host-suffix, savieo.com, ♻️自用节选
-host-keyword, amemv.com, ✅自用直连
-host, www.cordcloud.one, ♻️自用节选
-
 # > PayPal
 USER-AGENT,PayPal*,Paypal
 HOST-SUFFIX,paypal.com,Paypal
@@ -44,5 +30,20 @@ HOST-SUFFIX,telegram.me,Telegram
 HOST-SUFFIX,telesco.pe,Telegram
 host, my.nicegram.app,Telegram
 host, validator.nicegram.app, Telegram
+
+host, appraven.net, ✅自用直连
+host, jiali.tcwsq.cn, ⛔️自用禁连
+host, img.jswhpx.cn, ⛔️自用禁连
+host, ift.tt, ♻️自用节选
+host, jdsharedresourcescdn.azureedge.net, ♻️自用节选
+host, www.ccsub.cc, ♻️自用节选
+host, ghproxy.com, ♻️自用节选
+host-suffix, highwebmedia.com, ♻️自用节选
+host, m.chaturbate.com, ♻️自用节选
+host, api.trakt.tv, ♻️自用节选
+host-suffix, savieo.com, ♻️自用节选
+host-keyword, amemv.com, ✅自用直连
+host, www.cordcloud.one, ♻️自用节选
 host, www.fuli6.se, ✅自用直连
 host-suffix, fuli.sk, ✅自用直连
+host-suffix, xxxmmm.in, ✅自用直连
