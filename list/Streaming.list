@@ -40,9 +40,7 @@ DOMAIN-KEYWORD,-spotify-com,流媒体
 # > TIDAL
 USER-AGENT,TIDAL*,流媒体
 DOMAIN-SUFFIX,tidal.com,流媒体
-# > YouTubeMusic
-USER-AGENT,com.google.ios.youtubemusic*,流媒体
-USER-AGENT,YouTubeMusic*,流媒体
+
 
 # (Podcast)
 # > Himalaya
@@ -328,11 +326,3 @@ USER-AGENT,WeTV*,流媒体
 DOMAIN-SUFFIX,wetv.vip,流媒体
 DOMAIN-SUFFIX,wetvinfo.com,流媒体
 IP-CIDR,150.109.28.51/32,流媒体
-# > YouTube
-USER-AGENT,com.google.ios.youtube*,流媒体
-USER-AGENT,YouTube*,流媒体
-DOMAIN-SUFFIX,googlevideo.com,流媒体
-DOMAIN-SUFFIX,youtube.com,流媒体
-DOMAIN-SUFFIX,ytimg.com,流媒体
-DOMAIN,youtubei.googleapis.com,流媒体
-DOMAIN,yt3.ggpht.com,流媒体

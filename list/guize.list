@@ -77,6 +77,19 @@ IP-CIDR,199.96.56.0/21,Twitter
 IP-CIDR,202.160.128.0/22,Twitter
 IP-CIDR,209.237.192.0/19,Twitter
 
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,YouTube
+USER-AGENT,YouTube*,YouTube
+HOST-SUFFIX,googlevideo.com,YouTube
+HOST-SUFFIX,youtube.com,YouTube
+HOST-SUFFIX,ytimg.com,YouTube
+HOST,youtubei.googleapis.com,YouTube
+HOST,yt3.ggpht.com,YouTube
+# > YouTubeMusic
+USER-AGENT,com.google.ios.youtubemusic*,YouTube
+USER-AGENT,YouTubeMusic*,YouTube
+
+
 host, appraven.net, ✅自用直连
 host, jiali.tcwsq.cn, ⛔️自用禁连
 host, img.jswhpx.cn, ⛔️自用禁连
