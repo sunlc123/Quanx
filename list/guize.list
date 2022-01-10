@@ -128,6 +128,7 @@ HOST-SUFFIX,github.com,Github
 HOST-SUFFIX,github.io,Github
 HOST-SUFFIX,githubusercontent.com,Github
 
+HOST-SUFFIX,bing.com,✅自用直连
 host, appraven.net, ✅自用直连
 host, jiali.tcwsq.cn, ⛔️自用禁连
 host, img.jswhpx.cn, ⛔️自用禁连
@@ -146,3 +147,9 @@ host-keyword, cordcloud, ♻️自用节选
 host-keyword, ccsub.cc, ♻️自用节选
 host-keyword, zztt24.com, ✅自用直连
 host, receiptcheck.quantumult.app, ✅自用直连
+host, workingcopyapp.com, ♻️自用节选
+host, live.staticflickr.com, ♻️自用节选
+host, pixabay.com, ♻️自用节选
+host-suffix, gstatic.com, ♻️自用节选
+host, get.pxhere.com, ♻️自用节选
+host, data.flurry.com, ♻️自用节选
