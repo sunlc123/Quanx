@@ -1,5 +1,5 @@
-var obj = JSON.parse($response.body);
-obj= {
+const obj = JSON.parse($response.body);
+obj.subscription = {
 tier:"Pro",
 subscriptionActive: true,
 expirationDate: 2040418629080,
