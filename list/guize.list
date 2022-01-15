@@ -175,3 +175,4 @@ host, collector.githubapp.com, ⛔️自用禁连
 host, collector.githubapp.com, 
 host, collector.githubapp.com, ✅自用直连
 host, collector.githubapp.com, 
+user-agent, collector.githubapp.com, 
