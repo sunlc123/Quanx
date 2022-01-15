@@ -184,3 +184,4 @@ host-suffix, collector.githubapp.com,
 user-agent, collector.githubapp.com:443, 
 host-keyword, github.githubassets.com:443, 😎自己输入
 user-agent, collector.githubapp.com:443, Github
+host, collector.githubapp.com, ⛔️自用禁连
