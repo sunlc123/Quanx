@@ -128,7 +128,9 @@ IP-CIDR,204.15.20.0/22,Facebook
 HOST-SUFFIX,github.com,Github
 HOST-SUFFIX,github.io,Github
 HOST-SUFFIX,githubusercontent.com,Github
-
+host, gist.github.com, ♻️自用节选
+host, raw.githubusercontent.com, ♻️自用节选
+# > 其他配置
 HOST-SUFFIX,bing.com,✅自用直连
 host, appraven.net, ✅自用直连
 host, jiali.tcwsq.cn, ⛔️自用禁连
@@ -154,7 +156,6 @@ host-suffix, gstatic.com, ♻️自用节选
 host, get.pxhere.com, ♻️自用节选
 host, data.flurry.com, ♻️自用节选
 host-keyword, pixabay.com, ♻️自用节选
-host, raw.githubusercontent.com, ♻️自用节选
 host, outlook.office.com, ✅自用直连
 host, outlook-1.cdn.office.net, ✅自用直连
 host, self.events.data.microsoft.com, ✅自用直连
@@ -163,4 +164,3 @@ host, emby.cjpc.xyz, ⛔️自用禁连
 host-keyword, wuchajian.net, ⛔️自用禁连
 host, bbs.feng.com, ⛔️自用禁连
 host, app.airport.community, ✅自用直连
-host, gist.github.com, ♻️自用节选
