@@ -1,1 +1,2 @@
-http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag=解锁网易云音乐
+#解锁网易云音乐节点
+http=106.52.127.72:19951, method= , password= ,fast-open=false, udp-relay=false, tag=解锁网易云音乐
