@@ -130,6 +130,9 @@ HOST-SUFFIX,github.io,Github
 HOST-SUFFIX,githubusercontent.com,Github
 host, gist.github.com, ♻️自用节选
 host, raw.githubusercontent.com, ♻️自用节选
+HOST,github.githubassets.com,Github
+HOST,collector.githubapp.com,Github
+
 # > 其他配置
 HOST-SUFFIX,bing.com,✅自用直连
 host, appraven.net, ✅自用直连
