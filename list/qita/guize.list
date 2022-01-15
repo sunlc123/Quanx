@@ -123,7 +123,7 @@ IP-CIDR,173.252.96.0/19,Facebook
 IP-CIDR,179.60.192.0/22,Facebook
 IP-CIDR,185.60.216.0/22,Facebook
 IP-CIDR,204.15.20.0/22,Facebook
-1
+
 # > Github
 HOST-SUFFIX,github.com,Github
 HOST-SUFFIX,github.io,Github
