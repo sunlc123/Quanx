@@ -128,3 +128,5 @@ IP-CIDR,204.15.20.0/22,Facebook
 HOST-SUFFIX,github.com,Github
 HOST-SUFFIX,github.io,Github
 HOST-SUFFIX,githubusercontent.com,Github
+HOST,github.githubassets.com,Github
+HOST,collector.githubapp.com,Github
