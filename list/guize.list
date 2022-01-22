@@ -45,3 +45,4 @@ host-suffix, alipay.com, ✅自用直连
 host, m.weibo.cn, ✅自用直连
 host-suffix, sinaimg.cn, ✅自用直连
 host, szminorshort.weixin.qq.com, ✅自用直连
+host, api.github.com, ♻️自用节选
