@@ -8,6 +8,7 @@ HOST-SUFFIX,paypalobjects.com,Paypal
 host, emby.cjpc.cc, Emby
 host, 134.195.101.38, Emby
 HOST-SUFFIX,jmsooo.com, Emby
+HOST-SUFFIX,play.charontv.com, Emby
 
 # > Telegram
 HOST-SUFFIX,telegra.ph,Telegram
