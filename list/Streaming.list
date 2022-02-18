@@ -298,17 +298,6 @@ DOMAIN-SUFFIX,pornhubpremium.com,流媒体
 USER-AGENT,TaiwanGood*,流媒体
 DOMAIN-SUFFIX,skyking.com.tw,流媒体
 DOMAIN,hamifans.emome.net,流媒体
-# > TikTok
-USER-AGENT,TikTok*,流媒体
-DOMAIN-SUFFIX,byteoversea.com,流媒体
-DOMAIN-SUFFIX,ibytedtos.com,流媒体
-DOMAIN-SUFFIX,muscdn.com,流媒体
-DOMAIN-SUFFIX,musical.ly,流媒体
-DOMAIN-SUFFIX,tiktok.com,流媒体
-DOMAIN-SUFFIX,tik-tokapi.com,流媒体
-DOMAIN-SUFFIX,tiktokcdn.com,流媒体
-DOMAIN-SUFFIX,tiktokv.com,流媒体
-DOMAIN-KEYWORD,-tiktokcdn-com,流媒体
 # > TVer
 USER-AGENT,TVer-Release*,流媒体
 DOMAIN-SUFFIX,tver.jp,流媒体
