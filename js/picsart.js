@@ -1,11 +1,6 @@
-var obj = JSON.parse($response.body);
-
-obj.subscription= {
-  "granted": true
-};
-obj.is_verified_type= "subscribed";
-obj.is_verified= true;
-obj.is_verified_type_new=true;
-$done({body: JSON.stringify(obj)});
-
-// Mô tả
+let obj = JSON.parse($response.body)
+let pro= obj["response"];
+pro["is_trial"] = "true";
+pro["expire_date"] = "2530920284000";
+pro["status"] = "subscribed";
+$done({body: JSON.stringify(obj)})
