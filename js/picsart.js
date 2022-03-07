@@ -1,3 +1,3 @@
 let obj = JSON.parse($response.body);
-obj.subscription.granted = "true";
+obj.is_lifetime = "true";
 $done({body: JSON.stringify(obj)});
