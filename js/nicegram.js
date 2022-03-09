@@ -1,16 +1,22 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-  "in_apps" : [
+  "premium" : true,
+  "settings" : {
+    "custom_notifications" : false,
+    "sync_chats" : false,
+    "max_pinned_chats" : 5
+  },
+  "restricted" : [
+    845385857,
+    699361853
+  ],
+  "allowed" : [
 
   ],
-  "transactions" : [transactied
-
-  ],
-  "subscriptions" : [subscribed
-
+  "reasons" : [
+    "porn",
+    "copyright"
   ]
-}
-
-
+	
 $done({body: JSON.stringify(obj)});
