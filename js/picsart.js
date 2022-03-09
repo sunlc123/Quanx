@@ -1,5 +1,6 @@
 var obj = JSON.parse($response.body);
-{
+
+obj= {
   "status" : "success",
   "response" : {
     "is_eligible_for_grant" : true,
