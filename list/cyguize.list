@@ -145,3 +145,9 @@ DOMAIN-SUFFIX,tik-tokapi.com,TikTok
 DOMAIN-SUFFIX,tiktokcdn.com,TikTok
 DOMAIN-SUFFIX,tiktokv.com,TikTok
 DOMAIN-KEYWORD,tiktokcdn-,TikTok
+
+# > Discord
+DOMAIN-SUFFIX,discord.com,♻️自用节选
+DOMAIN-SUFFIX,discordapp.com,♻️自用节选
+DOMAIN-SUFFIX,discordapp.net,♻️自用节选
+DOMAIN-KEYWORD,discord.media,♻️自用节选
