@@ -27,5 +27,5 @@ IP-CIDR,144.178.0.0/19,苹果服务
 IP-CIDR,192.35.50.0/24,苹果服务
 IP-CIDR,198.183.17.0/24,苹果服务
 IP-CIDR,205.180.175.0/24,苹果服务
-host, p22-buy.itunes.apple.com, ♻️自用节选
-host, buy.itunes.apple.com, ♻️自用节选
+host, p22-buy.itunes.apple.com, 特殊域名
+host, buy.itunes.apple.com, 特殊域名
