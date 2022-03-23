@@ -128,6 +128,7 @@ IP-CIDR,204.15.20.0/22,Facebook
 
 # > Github
 HOST,gist.github.com,♻️自用节选
+HOST,raw.githubusercontent.com,♻️自用节选
 HOST-SUFFIX,github.com,Github
 HOST-SUFFIX,github.io,Github
 HOST-SUFFIX,githubusercontent.com,Github
