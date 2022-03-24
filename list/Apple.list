@@ -16,7 +16,7 @@ HOST-KEYWORD,apple.com.akadns.net,苹果服务
 HOST-KEYWORD,icloud.com.akadns.net,苹果服务
 host,inappcheck.itunes.apple.com,苹果服务
 host, xp.apple.com, 苹果服务
-HOST,testflight.apple.com,苹果服务
+HOST,testflight.apple.com,Testflight
 HOST-SUFFIX,apple.news,苹果服务
 HOST-SUFFIX,appsto.re,苹果服务
 IP-CIDR,17.0.0.0/8,苹果服务
