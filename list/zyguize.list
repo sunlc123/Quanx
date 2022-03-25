@@ -1,6 +1,4 @@
 # > 其他配置
-host, gist.github.com, ♻️自用节选
-host, raw.githubusercontent.com, ♻️自用节选
 HOST-SUFFIX,bing.com,✅自用直连
 host, appraven.net, ✅自用直连
 host, jiali.tcwsq.cn, ⛔️自用禁连
@@ -35,7 +33,6 @@ host, api.aliyundrive.com, ✅自用直连
 host, directory.getdrafts.com, ✅自用直连
 host, szextshort.weixin.qq.com, ✅自用直连
 host, szminorshort.weixin.qq.com, ✅自用直连
-host, api.github.com, ♻️自用节选
 host, dl.airtable.com, ♻️自用节选
 host, api.airport.community, ♻️自用节选
 host, bstbda.firebaseio.com, ♻️自用节选
@@ -47,4 +44,3 @@ host, sm.ms, ♻️自用节选
 host-keyword, airport-app-api-production.up.railway.app, ♻️自用节选
 host, cm-cn-central-00001.albatross.10086.cn, ✅自用直连
 host, avatars.mds.yandex.net, ♻️自用节选
-host, www.cordcloud.one, ♻️自用节选
