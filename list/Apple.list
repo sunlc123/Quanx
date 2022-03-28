@@ -1,6 +1,10 @@
 # Apple
+HOST,testflight.apple.com,TestFlight
+host, p22-buy.itunes.apple.com, 特殊域名
+host, buy.itunes.apple.com, 特殊域名
+HOST-SUFFIX,apple.co,特殊域名
+
 HOST-SUFFIX,aaplimg.com,苹果服务
-HOST-SUFFIX,apple.co,苹果服务
 HOST-SUFFIX,apple.com,苹果服务
 HOST-SUFFIX,apple.com.cn,苹果服务
 HOST-SUFFIX,apple-cloudkit.com,苹果服务
@@ -16,7 +20,6 @@ HOST-KEYWORD,apple.com.akadns.net,苹果服务
 HOST-KEYWORD,icloud.com.akadns.net,苹果服务
 host,inappcheck.itunes.apple.com,苹果服务
 host, xp.apple.com, 苹果服务
-HOST,testflight.apple.com,TestFlight
 HOST-SUFFIX,apple.news,苹果服务
 HOST-SUFFIX,appsto.re,苹果服务
 IP-CIDR,17.0.0.0/8,苹果服务
@@ -27,5 +30,3 @@ IP-CIDR,144.178.0.0/19,苹果服务
 IP-CIDR,192.35.50.0/24,苹果服务
 IP-CIDR,198.183.17.0/24,苹果服务
 IP-CIDR,205.180.175.0/24,苹果服务
-host, p22-buy.itunes.apple.com, 特殊域名
-host, buy.itunes.apple.com, 特殊域名
