@@ -1,6 +1,7 @@
 # > 其他配置
-HOST-SUFFIX,bing.com,✅自用直连
+host-suffix,bing.com,✅自用直连
 host, appraven.net, AppRaven
+host-suffix,notion.so,♻️自用节选
 host, jiali.tcwsq.cn, ⛔️自用禁连
 host, img.jswhpx.cn, ⛔️自用禁连
 host, ift.tt, ♻️自用节选
