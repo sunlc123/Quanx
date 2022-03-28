@@ -5,8 +5,8 @@ HOST-SUFFIX,paypal.me,Paypal
 HOST-SUFFIX,paypalobjects.com,Paypal
 
 # >Emby
-host, emby.cjpc.cc, Emby
-host, 134.195.101.38, Emby
+HOST, emby.cjpc.cc, Emby
+HOST, 134.195.101.38, Emby
 HOST-SUFFIX,jmsooo.com, Emby
 HOST-SUFFIX,play.charontv.com, Emby
 
@@ -31,8 +31,8 @@ HOST-SUFFIX,t.me,Telegram
 HOST-SUFFIX,tdesktop.com,Telegram
 HOST-SUFFIX,telegram.me,Telegram
 HOST-SUFFIX,telesco.pe,Telegram
-host, my.nicegram.app,Telegram
-host, validator.nicegram.app, Telegram
+HOST, my.nicegram.app,Telegram
+HOST, validator.nicegram.app, Telegram
 
 # > Google
 HOST-SUFFIX,appspot.com,Google
@@ -87,7 +87,7 @@ HOST-SUFFIX,youtube.com,YouTube
 HOST-SUFFIX,ytimg.com,YouTube
 HOST,youtubei.googleapis.com,YouTube
 HOST,yt3.ggpht.com,YouTube
-host-keyword,youtu.be,YouTube
+HOST-keyword,youtu.be,YouTube
 # > YouTubeMusic
 USER-AGENT,com.google.ios.youtubemusic*,YouTube
 USER-AGENT,YouTubeMusic*,YouTube
