@@ -1,26 +1,20 @@
 var obj = JSON.parse($response.body);
 
-obj= {
+obj={
   "status" : "success",
   "response" : {
-    "is_eligible_for_grant" : true,
-    "expire_date" : "2530920284000",
-    "limitation" : {
-      "max_count" : 10,
-      "limits_exceeded" : false
-    },
-    "order_id" : "220001188344435",
-    "purchase_date" : 1646681974000,
-    "app" : "com.picsart.editor",
     "original_order_id" : "220001188344435",
-    "winback_screen_id" : 1,
-    "is_eligible_for_introductory" : false,
-    "subscription_id" : "com.picsart.editor.subscription_yearly",
-    "is_trial" : "true",
-    "status" : "subscribed",
+    "order_id" : "220001188344435",
+    "status" : "SUBSCRIPTION_CANCELED",
+    "app" : "com.picsart.editor",
+    "is_trial" : true,
     "plan_meta" : {
 
-    }
+    },
+    "subscription_id" : "com.picsart.editor.subscription_yearly",
+    "is_eligible_for_introductory" : false,
+    "purchase_date" : 1646681974000,
+    "expire_date" : 1899743974000
   },
   "reason" : "ok"
 }
