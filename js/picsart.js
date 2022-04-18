@@ -5,7 +5,7 @@ obj={
   "response" : {
     "original_order_id" : "220001188344435",
     "order_id" : "220001188344435",
-    "status" : "SUBSCRIPTION_CANCELED",
+    "status" : "subscribed",
     "app" : "com.picsart.editor",
     "is_trial" : true,
     "plan_meta" : {
