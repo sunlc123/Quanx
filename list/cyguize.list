@@ -146,6 +146,15 @@ DOMAIN-SUFFIX,tiktokcdn.com,TikTok
 DOMAIN-SUFFIX,tiktokv.com,TikTok
 DOMAIN-KEYWORD,tiktokcdn-,TikTok
 
+# > Spotify
+USER-AGENT,Spotify*,Spotify
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,spotify.com,Spotify
+HOST-SUFFIX,spoti.fi,Spotify
+HOST-KEYWORD,spotify.com,Spotify
+HOST-KEYWORD,-spotify-com,Spotify
+
 # > Discord
 DOMAIN-SUFFIX,discord.com,♻️自用节选
 DOMAIN-SUFFIX,discordapp.com,♻️自用节选

@@ -29,19 +29,9 @@ USER-AGENT,SoundCloud*,流媒体
 HOST-SUFFIX,p-cdn.us,流媒体
 HOST-SUFFIX,sndcdn.com,流媒体
 HOST-SUFFIX,soundcloud.com,流媒体
-# > Spotify
-USER-AGENT,Spotify*,流媒体
-HOST-SUFFIX,pscdn.co,流媒体
-HOST-SUFFIX,scdn.co,流媒体
-HOST-SUFFIX,spotify.com,流媒体
-HOST-SUFFIX,spoti.fi,流媒体
-HOST-KEYWORD,spotify.com,流媒体
-HOST-KEYWORD,-spotify-com,流媒体
 # > TIDAL
 USER-AGENT,TIDAL*,流媒体
 HOST-SUFFIX,tidal.com,流媒体
-
-
 # (Podcast)
 # > Himalaya
 USER-AGENT,Himalaya*,流媒体
