@@ -1,445 +1,445 @@
-  - "DOMAIN-suffix,amazon.co.jp,PROXY"
-  - "DOMAIN,d3c33hcgiwev3.cloudfront.net,PROXY"
-  - "DOMAIN,payments-jp.amazon.com,PROXY"
-  - "DOMAIN,s3-ap-northeast-1.amazonaws.com,PROXY"
-  - "DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY"
-  - "DOMAIN,a248.e.akamai.net,PROXY"
-  - "DOMAIN,a771.dscq.akamai.net,PROXY"
-  - "DOMAIN-suffix,aex.com,PROXY"
-  - "DOMAIN-suffix,bibox.com,PROXY"
-  - "DOMAIN-suffix,binance.cc,PROXY"
-  - "DOMAIN-suffix,binance.com,PROXY"
-  - "DOMAIN-suffix,binance.us,PROXY"
-  - "DOMAIN-suffix,bitcointalk.org,PROXY"
-  - "DOMAIN-suffix,bitfinex.com,PROXY"
-  - "DOMAIN-suffix,bithumb.com,PROXY"
-  - "DOMAIN-suffix,bitmex.com,PROXY"
-  - "DOMAIN-suffix,bitstamp.net,PROXY"
-  - "DOMAIN-suffix,bittrex.com,PROXY"
-  - "DOMAIN-suffix,bybit.com,PROXY"
-  - "DOMAIN-suffix,coinbase.com,PROXY"
-  - "DOMAIN-suffix,coincheck.com,PROXY"
-  - "DOMAIN-suffix,coingecko.com,PROXY"
-  - "DOMAIN-suffix,coinmarketcap.com,PROXY"
-  - "DOMAIN-suffix,coinone.co.kr,PROXY"
-  - "DOMAIN-suffix,ftx.com,PROXY"
-  - "DOMAIN-suffix,gate.io,PROXY"
-  - "DOMAIN-suffix,gemini.com,PROXY"
-  - "DOMAIN-suffix,huobi.com,PROXY"
-  - "DOMAIN-suffix,korbit.co.kr,PROXY"
-  - "DOMAIN-suffix,kraken.com,PROXY"
-  - "DOMAIN-suffix,kucoin.com,PROXY"
-  - "DOMAIN-suffix,liquid.com,PROXY"
-  - "DOMAIN-suffix,okex.com,PROXY"
-  - "DOMAIN-suffix,poloniex.com,PROXY"
-  - "DOMAIN-suffix,uniswap.org,PROXY"
-  - "DOMAIN-suffix,zb.com,PROXY"
-  - "DOMAIN-suffix,dropbox.com,PROXY"
-  - "DOMAIN-suffix,dropboxapi.com,PROXY"
-  - "DOMAIN-suffix,dropboxusercontent.com,PROXY"
-  - "DOMAIN-suffix,line.me,PROXY"
-  - "DOMAIN-suffix,line-apps.com,PROXY"
-  - "DOMAIN-suffix,line-scdn.net,PROXY"
-  - "DOMAIN-suffix,naver.jp,PROXY"
-  - "IP-CIDR,103.2.30.0/23,PROXY"
-  - "IP-CIDR,125.209.208.0/20,PROXY"
-  - "IP-CIDR,147.92.128.0/17,PROXY"
-  - "IP-CIDR,203.104.144.0/21,PROXY"
-  - "DOMAIN-suffix,aka.ms,PROXY"
-  - "DOMAIN-suffix,onedrive.live.com,PROXY"
-  - "DOMAIN-suffix,streaming.mediaservices.windows.net,PROXY"
-  - "DOMAIN,assets1.xboxlive.com,PROXY"
-  - "DOMAIN,assets2.xboxlive.com,PROXY"
-  - "DOMAIN,az416426.vo.msecnd.net,PROXY"
-  - "DOMAIN,az668014.vo.msecnd.net,PROXY"
-  - "DOMAIN-suffix,nyt.com,PROXY"
-  - "DOMAIN-suffix,nytchina.com,PROXY"
-  - "DOMAIN-suffix,nytcn.me,PROXY"
-  - "DOMAIN-suffix,nytco.com,PROXY"
-  - "DOMAIN-suffix,nytimes.com,PROXY"
-  - "DOMAIN-suffix,nytimg.com,PROXY"
-  - "DOMAIN-suffix,nytlog.com,PROXY"
-  - "DOMAIN-suffix,nytstyle.com,PROXY"
-  - "DOMAIN-suffix,pinterest.at,PROXY"
-  - "DOMAIN-suffix,pinterest.ca,PROXY"
-  - "DOMAIN-suffix,pinterest.co.uk,PROXY"
-  - "DOMAIN-suffix,pinterest.com,PROXY"
-  - "DOMAIN-suffix,pinterest.de,PROXY"
-  - "DOMAIN-suffix,pinterest.fr,PROXY"
-  - "DOMAIN-suffix,pinterest.jp,PROXY"
-  - "DOMAIN-suffix,pinterest.se,PROXY"
-  - "DOMAIN-suffix,pixiv.net,PROXY"
-  - "DOMAIN-suffix,pixiv.org,PROXY"
-  - "DOMAIN-suffix,pximg.net,PROXY"
-  - "DOMAIN-suffix,redd.it,PROXY"
-  - "DOMAIN-suffix,reddit.com,PROXY"
-  - "DOMAIN-suffix,redditmedia.com,PROXY"
-  - "DOMAIN-suffix,wikileaks.org,PROXY"
-  - "DOMAIN-suffix,wikimapia.org,PROXY"
-  - "DOMAIN-suffix,wikimedia.org,PROXY"
-  - "DOMAIN-suffix,wikinews.org,PROXY"
-  - "DOMAIN-suffix,wikipedia.org,PROXY"
-  - "DOMAIN-suffix,wikiquote.org,PROXY"
-  - "DOMAIN-suffix,4shared.com,PROXY"
-  - "DOMAIN-suffix,9cache.com,PROXY"
-  - "DOMAIN-suffix,9gag.com,PROXY"
-  - "DOMAIN-suffix,abc.com,PROXY"
-  - "DOMAIN-suffix,abc.net.au,PROXY"
-  - "DOMAIN-suffix,abebooks.com,PROXY"
-  - "DOMAIN-suffix,ao3.org,PROXY"
-  - "DOMAIN-suffix,apigee.com,PROXY"
-  - "DOMAIN-suffix,apkcombo.com,PROXY"
-  - "DOMAIN-suffix,apk-dl.com,PROXY"
-  - "DOMAIN-suffix,apkfind.com,PROXY"
-  - "DOMAIN-suffix,apkmirror.com,PROXY"
-  - "DOMAIN-suffix,apkmonk.com,PROXY"
-  - "DOMAIN-suffix,apkpure.com,PROXY"
-  - "DOMAIN-suffix,aptoide.com,PROXY"
-  - "DOMAIN-suffix,archive.is,PROXY"
-  - "DOMAIN-suffix,archive.org,PROXY"
-  - "DOMAIN-suffix,archiveofourown.com,PROXY"
-  - "DOMAIN-suffix,archiveofourown.org,PROXY"
-  - "DOMAIN-suffix,arte.tv,PROXY"
-  - "DOMAIN-suffix,artstation.com,PROXY"
-  - "DOMAIN-suffix,arukas.io,PROXY"
-  - "DOMAIN-suffix,ask.com,PROXY"
-  - "DOMAIN-suffix,avg.com,PROXY"
-  - "DOMAIN-suffix,avgle.com,PROXY"
-  - "DOMAIN-suffix,badoo.com,PROXY"
-  - "DOMAIN-suffix,bandcamp.com,PROXY"
-  - "DOMAIN-suffix,bandwagonDOMAIN.com,PROXY"
-  - "DOMAIN-suffix,bangkokpost.com,PROXY"
-  - "DOMAIN-suffix,bbc.com,PROXY"
-  - "DOMAIN-suffix,behance.net,PROXY"
-  - "DOMAIN-suffix,biggo.com.tw,PROXY"
-  - "DOMAIN-suffix,bit.ly,PROXY"
-  - "DOMAIN-suffix,bloglovin.com,PROXY"
-  - "DOMAIN-suffix,bloomberg.cn,PROXY"
-  - "DOMAIN-suffix,bloomberg.com,PROXY"
-  - "DOMAIN-suffix,blubrry.com,PROXY"
-  - "DOMAIN-suffix,book.com.tw,PROXY"
-  - "DOMAIN-suffix,booklive.jp,PROXY"
-  - "DOMAIN-suffix,books.com.tw,PROXY"
-  - "DOMAIN-suffix,boslife.net,PROXY"
-  - "DOMAIN-suffix,box.com,PROXY"
-  - "DOMAIN-suffix,brave.com,PROXY"
-  - "DOMAIN-suffix,businessinsider.com,PROXY"
-  - "DOMAIN-suffix,buzzfeed.com,PROXY"
-  - "DOMAIN-suffix,bwh1.net,PROXY"
-  - "DOMAIN-suffix,castbox.fm,PROXY"
-  - "DOMAIN-suffix,cbc.ca,PROXY"
-  - "DOMAIN-suffix,cdw.com,PROXY"
-  - "DOMAIN-suffix,change.org,PROXY"
-  - "DOMAIN-suffix,channelnewsasia.com,PROXY"
-  - "DOMAIN-suffix,ck101.com,PROXY"
-  - "DOMAIN-suffix,clarionproject.org,PROXY"
-  - "DOMAIN-suffix,cloudcone.com,PROXY"
-  - "DOMAIN-suffix,clubhouseapi.com,PROXY"
-  - "DOMAIN-suffix,clyp.it,PROXY"
-  - "DOMAIN-suffix,cna.com.tw,PROXY"
-  - "DOMAIN-suffix,comparitech.com,PROXY"
-  - "DOMAIN-suffix,conoha.jp,PROXY"
-  - "DOMAIN-suffix,crucial.com,PROXY"
-  - "DOMAIN-suffix,cts.com.tw,PROXY"
-  - "DOMAIN-suffix,cw.com.tw,PROXY"
-  - "DOMAIN-suffix,cyberctm.com,PROXY"
-  - "DOMAIN-suffix,cyclingnews.com,PROXY"
-  - "DOMAIN-suffix,dailymotion.com,PROXY"
-  - "DOMAIN-suffix,dailyview.tw,PROXY"
-  - "DOMAIN-suffix,dandanzan.com,PROXY"
-  - "DOMAIN-suffix,daum.net,PROXY"
-  - "DOMAIN-suffix,daumcdn.net,PROXY"
-  - "DOMAIN-suffix,dcard.tw,PROXY"
-  - "DOMAIN-suffix,deadline.com,PROXY"
-  - "DOMAIN-suffix,deepdiscount.com,PROXY"
-  - "DOMAIN-suffix,depositphotos.com,PROXY"
-  - "DOMAIN-suffix,deviantart.com,PROXY"
-  - "DOMAIN-suffix,disconnect.me,PROXY"
-  - "DOMAIN-suffix,disqus.com,PROXY"
-  - "DOMAIN-suffix,dlercloud.com,PROXY"
-  - "DOMAIN-suffix,dmhy.org,PROXY"
-  - "DOMAIN-suffix,dns2go.com,PROXY"
-  - "DOMAIN-suffix,dowjones.com,PROXY"
-  - "DOMAIN-suffix,duckduckgo.com,PROXY"
-  - "DOMAIN-suffix,duyaoss.com,PROXY"
-  - "DOMAIN-suffix,dw.com,PROXY"
-  - "DOMAIN-suffix,dynu.com,PROXY"
-  - "DOMAIN-suffix,earthcam.com,PROXY"
-  - "DOMAIN-suffix,ebookservice.tw,PROXY"
-  - "DOMAIN-suffix,economist.com,PROXY"
-  - "DOMAIN-suffix,edgecastcdn.net,PROXY"
-  - "DOMAIN-suffix,edx-cdn.org,PROXY"
-  - "DOMAIN-suffix,elpais.com,PROXY"
-  - "DOMAIN-suffix,enanyang.my,PROXY"
-  - "DOMAIN-suffix,encyclopedia.com,PROXY"
-  - "DOMAIN-suffix,esoir.be,PROXY"
-  - "DOMAIN-suffix,etherscan.io,PROXY"
-  - "DOMAIN-suffix,euronews.com,PROXY"
-  - "DOMAIN-suffix,evozi.com,PROXY"
-  - "DOMAIN-suffix,exblog.jp,PROXY"
-  - "DOMAIN-suffix,feeder.co,PROXY"
-  - "DOMAIN-suffix,feedly.com,PROXY"
-  - "DOMAIN-suffix,feedx.net,PROXY"
-  - "DOMAIN-suffix,firech.at,PROXY"
-  - "DOMAIN-suffix,flickr.com,PROXY"
-  - "DOMAIN-suffix,flipboard.com,PROXY"
-  - "DOMAIN-suffix,flitto.com,PROXY"
-  - "DOMAIN-suffix,foreignpolicy.com,PROXY"
-  - "DOMAIN-suffix,fortawesome.com,PROXY"
-  - "DOMAIN-suffix,freetls.fastly.net,PROXY"
-  - "DOMAIN-suffix,friday.tw,PROXY"
-  - "DOMAIN-suffix,ft.com,PROXY"
-  - "DOMAIN-suffix,ftchinese.com,PROXY"
-  - "DOMAIN-suffix,ftimg.net,PROXY"
-  - "DOMAIN-suffix,genius.com,PROXY"
-  - "DOMAIN-suffix,getlantern.org,PROXY"
-  - "DOMAIN-suffix,getsync.com,PROXY"
-  - "DOMAIN-suffix,globalvoices.org,PROXY"
-  - "DOMAIN-suffix,goo.ne.jp,PROXY"
-  - "DOMAIN-suffix,goodreads.com,PROXY"
-  - "DOMAIN-suffix,gov.tw,PROXY"
-  - "DOMAIN-suffix,gravatar.com,PROXY"
-  - "DOMAIN-suffix,greatfire.org,PROXY"
-  - "DOMAIN-suffix,gumroad.com,PROXY"
-  - "DOMAIN-suffix,heroku.com,PROXY"
-  - "DOMAIN-suffix,hightail.com,PROXY"
-  - "DOMAIN-suffix,hk01.com,PROXY"
-  - "DOMAIN-suffix,hkbf.org,PROXY"
-  - "DOMAIN-suffix,hkbookcity.com,PROXY"
-  - "DOMAIN-suffix,hkej.com,PROXY"
-  - "DOMAIN-suffix,hket.com,PROXY"
-  - "DOMAIN-suffix,hootsuite.com,PROXY"
-  - "DOMAIN-suffix,hudson.org,PROXY"
-  - "DOMAIN-suffix,huffpost.com,PROXY"
-  - "DOMAIN-suffix,hyread.com.tw,PROXY"
-  - "DOMAIN-suffix,ibtimes.com,PROXY"
-  - "DOMAIN-suffix,i-cable.com,PROXY"
-  - "DOMAIN-suffix,icij.org,PROXY"
-  - "DOMAIN-suffix,icoco.com,PROXY"
-  - "DOMAIN-suffix,imgur.com,PROXY"
-  - "DOMAIN-suffix,independent.co.uk,PROXY"
-  - "DOMAIN-suffix,initiummall.com,PROXY"
-  - "DOMAIN-suffix,inoreader.com,PROXY"
-  - "DOMAIN-suffix,insecam.org,PROXY"
-  - "DOMAIN-suffix,ipfs.io,PROXY"
-  - "DOMAIN-suffix,issuu.com,PROXY"
-  - "DOMAIN-suffix,istockphoto.com,PROXY"
-  - "DOMAIN-suffix,japantimes.co.jp,PROXY"
-  - "DOMAIN-suffix,jiji.com,PROXY"
-  - "DOMAIN-suffix,jinx.com,PROXY"
-  - "DOMAIN-suffix,jkforum.net,PROXY"
-  - "DOMAIN-suffix,joinclubhouse.com,PROXY"
-  - "DOMAIN-suffix,joinmastodon.org,PROXY"
-  - "DOMAIN-suffix,justmysocks.net,PROXY"
-  - "DOMAIN-suffix,justpaste.it,PROXY"
-  - "DOMAIN-suffix,kadokawa.co.jp,PROXY"
-  - "DOMAIN-suffix,kakao.com,PROXY"
-  - "DOMAIN-suffix,kakaocorp.com,PROXY"
-  - "DOMAIN-suffix,kik.com,PROXY"
-  - "DOMAIN-suffix,kingkong.com.tw,PROXY"
-  - "DOMAIN-suffix,knowyourmeme.com,PROXY"
-  - "DOMAIN-suffix,kobo.com,PROXY"
-  - "DOMAIN-suffix,kobobooks.com,PROXY"
-  - "DOMAIN-suffix,kodingen.com,PROXY"
-  - "DOMAIN-suffix,lemonde.fr,PROXY"
-  - "DOMAIN-suffix,lepoint.fr,PROXY"
-  - "DOMAIN-suffix,lihkg.com,PROXY"
-  - "DOMAIN-suffix,limbopro.xyz,PROXY"
-  - "DOMAIN-suffix,listennotes.com,PROXY"
-  - "DOMAIN-suffix,livestream.com,PROXY"
-  - "DOMAIN-suffix,logimg.jp,PROXY"
-  - "DOMAIN-suffix,logmein.com,PROXY"
-  - "DOMAIN-suffix,mail.ru,PROXY"
-  - "DOMAIN-suffix,mailchimp.com,PROXY"
-  - "DOMAIN-suffix,marc.info,PROXY"
-  - "DOMAIN-suffix,matters.news,PROXY"
-  - "DOMAIN-suffix,maying.co,PROXY"
-  - "DOMAIN-suffix,medium.com,PROXY"
-  - "DOMAIN-suffix,mega.nz,PROXY"
-  - "DOMAIN-suffix,mergersandinquisitions.com,PROXY"
-  - "DOMAIN-suffix,mingpao.com,PROXY"
-  - "DOMAIN-suffix,mixi.jp,PROXY"
-  - "DOMAIN-suffix,mixlr.com,PROXY"
-  - "DOMAIN-suffix,mobile01.com,PROXY"
-  - "DOMAIN-suffix,mubi.com,PROXY"
-  - "DOMAIN-suffix,myspace.com,PROXY"
-  - "DOMAIN-suffix,myspacecdn.com,PROXY"
-  - "DOMAIN-suffix,nanyang.com,PROXY"
-  - "DOMAIN-suffix,nationalinterest.org,PROXY"
-  - "DOMAIN-suffix,naver.com,PROXY"
-  - "DOMAIN-suffix,nbcnews.com,PROXY"
-  - "DOMAIN-suffix,ndr.de,PROXY"
-  - "DOMAIN-suffix,neowin.net,PROXY"
-  - "DOMAIN-suffix,newstapa.org,PROXY"
-  - "DOMAIN-suffix,nexitally.com,PROXY"
-  - "DOMAIN-suffix,nhk.or.jp,PROXY"
-  - "DOMAIN-suffix,nii.ac.jp,PROXY"
-  - "DOMAIN-suffix,nikkei.com,PROXY"
-  - "DOMAIN-suffix,nitter.net,PROXY"
-  - "DOMAIN-suffix,nofile.io,PROXY"
-  - "DOMAIN-suffix,now.com,PROXY"
-  - "DOMAIN-suffix,nrk.no,PROXY"
-  - "DOMAIN-suffix,nuget.org,PROXY"
-  - "DOMAIN-suffix,nyaa.si,PROXY"
-  - "DOMAIN-suffix,ok.ru,PROXY"
-  - "DOMAIN-suffix,on.cc,PROXY"
-  - "DOMAIN-suffix,orientaldaily.com.my,PROXY"
-  - "DOMAIN-suffix,overcast.fm,PROXY"
-  - "DOMAIN-suffix,paltalk.com,PROXY"
-  - "DOMAIN-suffix,parsevideo.com,PROXY"
-  - "DOMAIN-suffix,pawoo.net,PROXY"
-  - "DOMAIN-suffix,pbxes.com,PROXY"
-  - "DOMAIN-suffix,pcdvd.com.tw,PROXY"
-  - "DOMAIN-suffix,pchome.com.tw,PROXY"
-  - "DOMAIN-suffix,pcloud.com,PROXY"
-  - "DOMAIN-suffix,peing.net,PROXY"
-  - "DOMAIN-suffix,picacomic.com,PROXY"
-  - "DOMAIN-suffix,pinimg.com,PROXY"
-  - "DOMAIN-suffix,player.fm,PROXY"
-  - "DOMAIN-suffix,plurk.com,PROXY"
-  - "DOMAIN-suffix,po18.tw,PROXY"
-  - "DOMAIN-suffix,potato.im,PROXY"
-  - "DOMAIN-suffix,potatso.com,PROXY"
-  - "DOMAIN-suffix,prism-break.org,PROXY"
-  - "DOMAIN-suffix,proxifier.com,PROXY"
-  - "DOMAIN-suffix,pt.im,PROXY"
-  - "DOMAIN-suffix,pts.org.tw,PROXY"
-  - "DOMAIN-suffix,pubu.com.tw,PROXY"
-  - "DOMAIN-suffix,pubu.tw,PROXY"
-  - "DOMAIN-suffix,pureapk.com,PROXY"
-  - "DOMAIN-suffix,quora.com,PROXY"
-  - "DOMAIN-suffix,quoracdn.net,PROXY"
-  - "DOMAIN-suffix,qz.com,PROXY"
-  - "DOMAIN-suffix,radio.garden,PROXY"
-  - "DOMAIN-suffix,rakuten.co.jp,PROXY"
-  - "DOMAIN-suffix,rarbgprx.org,PROXY"
-  - "DOMAIN-suffix,reabble.com,PROXY"
-  - "DOMAIN-suffix,readingtimes.com.tw,PROXY"
-  - "DOMAIN-suffix,readmoo.com,PROXY"
-  - "DOMAIN-suffix,redbubble.com,PROXY"
-  - "DOMAIN-suffix,resilio.com,PROXY"
-  - "DOMAIN-suffix,reuters.com,PROXY"
-  - "DOMAIN-suffix,reutersmedia.net,PROXY"
-  - "DOMAIN-suffix,rfi.fr,PROXY"
-  - "DOMAIN-suffix,roadshow.hk,PROXY"
-  - "DOMAIN-suffix,rsshub.app,PROXY"
-  - "DOMAIN-suffix,scmp.com,PROXY"
-  - "DOMAIN-suffix,scribd.com,PROXY"
-  - "DOMAIN-suffix,seatguru.com,PROXY"
-  - "DOMAIN-suffix,shadowsocks.org,PROXY"
-  - "DOMAIN-suffix,shindanmaker.com,PROXY"
-  - "DOMAIN-suffix,shopee.tw,PROXY"
-  - "DOMAIN-suffix,signal.org,PROXY"
-  - "DOMAIN-suffix,sina.com.hk,PROXY"
-  - "DOMAIN-suffix,slideshare.net,PROXY"
-  - "DOMAIN-suffix,softfamous.com,PROXY"
-  - "DOMAIN-suffix,spiegel.de,PROXY"
-  - "DOMAIN-suffix,startpage.com,PROXY"
-  - "DOMAIN-suffix,steamcommunity.com,PROXY"
-  - "DOMAIN-suffix,steemit.com,PROXY"
-  - "DOMAIN-suffix,steemitwallet.com,PROXY"
-  - "DOMAIN-suffix,straitstimes.com,PROXY"
-  - "DOMAIN-suffix,streamable.com,PROXY"
-  - "DOMAIN-suffix,streema.com,PROXY"
-  - "DOMAIN-suffix,substack.com,PROXY"
-  - "DOMAIN-suffix,t66y.com,PROXY"
-  - "DOMAIN-suffix,tapatalk.com,PROXY"
-  - "DOMAIN-suffix,teco-hk.org,PROXY"
-  - "DOMAIN-suffix,teco-mo.org,PROXY"
-  - "DOMAIN-suffix,teddysun.com,PROXY"
-  - "DOMAIN-suffix,textnow.me,PROXY"
-  - "DOMAIN-suffix,theguardian.com,PROXY"
-  - "DOMAIN-suffix,theinitium.com,PROXY"
-  - "DOMAIN-suffix,themoviedb.org,PROXY"
-  - "DOMAIN-suffix,thetvdb.com,PROXY"
-  - "DOMAIN-suffix,time.com,PROXY"
-  - "DOMAIN-suffix,tineye.com,PROXY"
-  - "DOMAIN-suffix,tiny.cc,PROXY"
-  - "DOMAIN-suffix,tinyurl.com,PROXY"
-  - "DOMAIN-suffix,torproject.org,PROXY"
-  - "DOMAIN-suffix,tradingview.com,PROXY"
-  - "DOMAIN-suffix,tumblr.com,PROXY"
-  - "DOMAIN-suffix,turbobit.net,PROXY"
-  - "DOMAIN-suffix,tutanota.com,PROXY"
-  - "DOMAIN-suffix,tvboxnow.com,PROXY"
-  - "DOMAIN-suffix,udn.com,PROXY"
-  - "DOMAIN-suffix,unseen.is,PROXY"
-  - "DOMAIN-suffix,upmedia.mg,PROXY"
-  - "DOMAIN-suffix,uptodown.com,PROXY"
-  - "DOMAIN-suffix,urbandictionary.com,PROXY"
-  - "DOMAIN-suffix,ustream.tv,PROXY"
-  - "DOMAIN-suffix,uwants.com,PROXY"
-  - "DOMAIN-suffix,v2ex.com,PROXY"
-  - "DOMAIN-suffix,v2fly.org,PROXY"
-  - "DOMAIN-suffix,v2ray.com,PROXY"
-  - "DOMAIN-suffix,viber.com,PROXY"
-  - "DOMAIN-suffix,videopress.com,PROXY"
-  - "DOMAIN-suffix,vimeo.com,PROXY"
-  - "DOMAIN-suffix,voachinese.com,PROXY"
-  - "DOMAIN-suffix,voanews.com,PROXY"
-  - "DOMAIN-suffix,voxer.com,PROXY"
-  - "DOMAIN-suffix,vzw.com,PROXY"
-  - "DOMAIN-suffix,w3schools.com,PROXY"
-  - "DOMAIN-suffix,washingtonpost.com,PROXY"
-  - "DOMAIN-suffix,wattpad.com,PROXY"
-  - "DOMAIN-suffix,whoer.net,PROXY"
-  - "DOMAIN-suffix,wikiwand.com,PROXY"
-  - "DOMAIN-suffix,winudf.com,PROXY"
-  - "DOMAIN-suffix,wire.com,PROXY"
-  - "DOMAIN-suffix,wn.com,PROXY"
-  - "DOMAIN-suffix,wordpress.com,PROXY"
-  - "DOMAIN-suffix,worldcat.org,PROXY"
-  - "DOMAIN-suffix,wsj.com,PROXY"
-  - "DOMAIN-suffix,wsj.net,PROXY"
-  - "DOMAIN-suffix,xhamster.com,PROXY"
-  - "DOMAIN-suffix,xn--90wwvt03e.com,PROXY"
-  - "DOMAIN-suffix,xn--i2ru8q2qg.com,PROXY"
-  - "DOMAIN-suffix,xnxx.com,PROXY"
-  - "DOMAIN-suffix,xvideos.com,PROXY"
-  - "DOMAIN-suffix,yadi.sk,PROXY"
-  - "DOMAIN-suffix,yahoo.com,PROXY"
-  - "DOMAIN-suffix,yandex.ru,PROXY"
-  - "DOMAIN-suffix,ycombinator.com,PROXY"
-  - "DOMAIN-suffix,yesasia.com,PROXY"
-  - "DOMAIN-suffix,yes-news.com,PROXY"
-  - "DOMAIN-suffix,yomiuri.co.jp,PROXY"
-  - "DOMAIN-suffix,you-get.org,PROXY"
-  - "DOMAIN-suffix,zaobao.com,PROXY"
-  - "DOMAIN-suffix,zello.com,PROXY"
-  - "DOMAIN-suffix,zeronet.io,PROXY"
-  - "DOMAIN-suffix,z-lib.org,PROXY"
-  - "DOMAIN-suffix,zoom.us,PROXY"
-  - "DOMAIN,cc.tvbs.com.tw,PROXY"
-  - "DOMAIN,clubhouse.pubnubapi.com,PROXY"
-  - "DOMAIN,ocsp.int-x3.letsencrypt.org,PROXY"
-  - "DOMAIN,us.weibo.com,PROXY"
-  - "DOMAIN-suffix,edu,PROXY"
-  - "DOMAIN-suffix,gov,PROXY"
-  - "DOMAIN-suffix,mil,PROXY"
-  - "IP-CIDR,91.198.174.0/24,PROXY"
-  - "IP-CIDR,103.102.166.0/24,PROXY"
-  - "IP-CIDR,185.15.56.0/22,PROXY"
-  - "IP-CIDR,198.35.26.0/23,PROXY"
-  - "IP-CIDR,208.80.152.0/22,PROXY"
-  - "DOMAIN-suffix,noxinfluencer.com,PROXY"
-  - "DOMAIN-suffix,smartmailcloud.com,PROXY"
-  - "DOMAIN-suffix,weebly.com,PROXY"
-  - "DOMAIN-suffix,aicoin.com,PROXY"
-  - "DOMAIN-suffix,aimoon.com,PROXY"
-  - "DOMAIN-suffix,cccat.io,PROXY"
-  - "DOMAIN-suffix,dubox.com,PROXY"
-  - "DOMAIN-suffix,duboxcdn.com,PROXY"
-  - "DOMAIN-suffix,ifixit.com,PROXY"
-  - "DOMAIN-suffix,mangakakalot.com,PROXY"
-  - "DOMAIN-suffix,shopeemobile.com,PROXY"
-  - "DOMAIN-suffix,sushi.com,PROXY"
-  - "DOMAIN,cacerts.digicert.com,PROXY"
-  - "DOMAIN,crl3.digicert.com,PROXY"
-  - "DOMAIN,crl4.digicert.com,PROXY"
-  - "DOMAIN,ocsp.digicert.com,PROXY"
-  - "DOMAIN-suffix,cloudcone.com.cn,PROXY"
-  - "DOMAIN-suffix,inkbunny.net,PROXY"
-  - "DOMAIN-suffix,metapix.net,PROXY"
-  - "DOMAIN-suffix,s3.amazonaws.com,PROXY"
-  - "DOMAIN-suffix,zaobao.com.sg,PROXY"
-  - "DOMAIN,international-gfe.download.nvidia.com,PROXY"
+- DOMAIN-suffix,amazon.co.jp
+- DOMAIN,d3c33hcgiwev3.cloudfront.net
+- DOMAIN,payments-jp.amazon.com
+- DOMAIN,s3-ap-northeast-1.amazonaws.com
+- DOMAIN,s3-ap-southeast-2.amazonaws.com
+- DOMAIN,a248.e.akamai.net
+- DOMAIN,a771.dscq.akamai.net
+- DOMAIN-suffix,aex.com
+- DOMAIN-suffix,bibox.com
+- DOMAIN-suffix,binance.cc
+- DOMAIN-suffix,binance.com
+- DOMAIN-suffix,binance.us
+- DOMAIN-suffix,bitcointalk.org
+- DOMAIN-suffix,bitfinex.com
+- DOMAIN-suffix,bithumb.com
+- DOMAIN-suffix,bitmex.com
+- DOMAIN-suffix,bitstamp.net
+- DOMAIN-suffix,bittrex.com
+- DOMAIN-suffix,bybit.com
+- DOMAIN-suffix,coinbase.com
+- DOMAIN-suffix,coincheck.com
+- DOMAIN-suffix,coingecko.com
+- DOMAIN-suffix,coinmarketcap.com
+- DOMAIN-suffix,coinone.co.kr
+- DOMAIN-suffix,ftx.com
+- DOMAIN-suffix,gate.io
+- DOMAIN-suffix,gemini.com
+- DOMAIN-suffix,huobi.com
+- DOMAIN-suffix,korbit.co.kr
+- DOMAIN-suffix,kraken.com
+- DOMAIN-suffix,kucoin.com
+- DOMAIN-suffix,liquid.com
+- DOMAIN-suffix,okex.com
+- DOMAIN-suffix,poloniex.com
+- DOMAIN-suffix,uniswap.org
+- DOMAIN-suffix,zb.com
+- DOMAIN-suffix,dropbox.com
+- DOMAIN-suffix,dropboxapi.com
+- DOMAIN-suffix,dropboxusercontent.com
+- DOMAIN-suffix,line.me
+- DOMAIN-suffix,line-apps.com
+- DOMAIN-suffix,line-scdn.net
+- DOMAIN-suffix,naver.jp
+- IP-CIDR,103.2.30.0/23
+- IP-CIDR,125.209.208.0/20
+- IP-CIDR,147.92.128.0/17
+- IP-CIDR,203.104.144.0/21
+- DOMAIN-suffix,aka.ms
+- DOMAIN-suffix,onedrive.live.com
+- DOMAIN-suffix,streaming.mediaservices.windows.net
+- DOMAIN,assets1.xboxlive.com
+- DOMAIN,assets2.xboxlive.com
+- DOMAIN,az416426.vo.msecnd.net
+- DOMAIN,az668014.vo.msecnd.net
+- DOMAIN-suffix,nyt.com
+- DOMAIN-suffix,nytchina.com
+- DOMAIN-suffix,nytcn.me
+- DOMAIN-suffix,nytco.com
+- DOMAIN-suffix,nytimes.com
+- DOMAIN-suffix,nytimg.com
+- DOMAIN-suffix,nytlog.com
+- DOMAIN-suffix,nytstyle.com
+- DOMAIN-suffix,pinterest.at
+- DOMAIN-suffix,pinterest.ca
+- DOMAIN-suffix,pinterest.co.uk
+- DOMAIN-suffix,pinterest.com
+- DOMAIN-suffix,pinterest.de
+- DOMAIN-suffix,pinterest.fr
+- DOMAIN-suffix,pinterest.jp
+- DOMAIN-suffix,pinterest.se
+- DOMAIN-suffix,pixiv.net
+- DOMAIN-suffix,pixiv.org
+- DOMAIN-suffix,pximg.net
+- DOMAIN-suffix,redd.it
+- DOMAIN-suffix,reddit.com
+- DOMAIN-suffix,redditmedia.com
+- DOMAIN-suffix,wikileaks.org
+- DOMAIN-suffix,wikimapia.org
+- DOMAIN-suffix,wikimedia.org
+- DOMAIN-suffix,wikinews.org
+- DOMAIN-suffix,wikipedia.org
+- DOMAIN-suffix,wikiquote.org
+- DOMAIN-suffix,4shared.com
+- DOMAIN-suffix,9cache.com
+- DOMAIN-suffix,9gag.com
+- DOMAIN-suffix,abc.com
+- DOMAIN-suffix,abc.net.au
+- DOMAIN-suffix,abebooks.com
+- DOMAIN-suffix,ao3.org
+- DOMAIN-suffix,apigee.com
+- DOMAIN-suffix,apkcombo.com
+- DOMAIN-suffix,apk-dl.com
+- DOMAIN-suffix,apkfind.com
+- DOMAIN-suffix,apkmirror.com
+- DOMAIN-suffix,apkmonk.com
+- DOMAIN-suffix,apkpure.com
+- DOMAIN-suffix,aptoide.com
+- DOMAIN-suffix,archive.is
+- DOMAIN-suffix,archive.org
+- DOMAIN-suffix,archiveofourown.com
+- DOMAIN-suffix,archiveofourown.org
+- DOMAIN-suffix,arte.tv
+- DOMAIN-suffix,artstation.com
+- DOMAIN-suffix,arukas.io
+- DOMAIN-suffix,ask.com
+- DOMAIN-suffix,avg.com
+- DOMAIN-suffix,avgle.com
+- DOMAIN-suffix,badoo.com
+- DOMAIN-suffix,bandcamp.com
+- DOMAIN-suffix,bandwagonDOMAIN.com
+- DOMAIN-suffix,bangkokpost.com
+- DOMAIN-suffix,bbc.com
+- DOMAIN-suffix,behance.net
+- DOMAIN-suffix,biggo.com.tw
+- DOMAIN-suffix,bit.ly
+- DOMAIN-suffix,bloglovin.com
+- DOMAIN-suffix,bloomberg.cn
+- DOMAIN-suffix,bloomberg.com
+- DOMAIN-suffix,blubrry.com
+- DOMAIN-suffix,book.com.tw
+- DOMAIN-suffix,booklive.jp
+- DOMAIN-suffix,books.com.tw
+- DOMAIN-suffix,boslife.net
+- DOMAIN-suffix,box.com
+- DOMAIN-suffix,brave.com
+- DOMAIN-suffix,businessinsider.com
+- DOMAIN-suffix,buzzfeed.com
+- DOMAIN-suffix,bwh1.net
+- DOMAIN-suffix,castbox.fm
+- DOMAIN-suffix,cbc.ca
+- DOMAIN-suffix,cdw.com
+- DOMAIN-suffix,change.org
+- DOMAIN-suffix,channelnewsasia.com
+- DOMAIN-suffix,ck101.com
+- DOMAIN-suffix,clarionproject.org
+- DOMAIN-suffix,cloudcone.com
+- DOMAIN-suffix,clubhouseapi.com
+- DOMAIN-suffix,clyp.it
+- DOMAIN-suffix,cna.com.tw
+- DOMAIN-suffix,comparitech.com
+- DOMAIN-suffix,conoha.jp
+- DOMAIN-suffix,crucial.com
+- DOMAIN-suffix,cts.com.tw
+- DOMAIN-suffix,cw.com.tw
+- DOMAIN-suffix,cyberctm.com
+- DOMAIN-suffix,cyclingnews.com
+- DOMAIN-suffix,dailymotion.com
+- DOMAIN-suffix,dailyview.tw
+- DOMAIN-suffix,dandanzan.com
+- DOMAIN-suffix,daum.net
+- DOMAIN-suffix,daumcdn.net
+- DOMAIN-suffix,dcard.tw
+- DOMAIN-suffix,deadline.com
+- DOMAIN-suffix,deepdiscount.com
+- DOMAIN-suffix,depositphotos.com
+- DOMAIN-suffix,deviantart.com
+- DOMAIN-suffix,disconnect.me
+- DOMAIN-suffix,disqus.com
+- DOMAIN-suffix,dlercloud.com
+- DOMAIN-suffix,dmhy.org
+- DOMAIN-suffix,dns2go.com
+- DOMAIN-suffix,dowjones.com
+- DOMAIN-suffix,duckduckgo.com
+- DOMAIN-suffix,duyaoss.com
+- DOMAIN-suffix,dw.com
+- DOMAIN-suffix,dynu.com
+- DOMAIN-suffix,earthcam.com
+- DOMAIN-suffix,ebookservice.tw
+- DOMAIN-suffix,economist.com
+- DOMAIN-suffix,edgecastcdn.net
+- DOMAIN-suffix,edx-cdn.org
+- DOMAIN-suffix,elpais.com
+- DOMAIN-suffix,enanyang.my
+- DOMAIN-suffix,encyclopedia.com
+- DOMAIN-suffix,esoir.be
+- DOMAIN-suffix,etherscan.io
+- DOMAIN-suffix,euronews.com
+- DOMAIN-suffix,evozi.com
+- DOMAIN-suffix,exblog.jp
+- DOMAIN-suffix,feeder.co
+- DOMAIN-suffix,feedly.com
+- DOMAIN-suffix,feedx.net
+- DOMAIN-suffix,firech.at
+- DOMAIN-suffix,flickr.com
+- DOMAIN-suffix,flipboard.com
+- DOMAIN-suffix,flitto.com
+- DOMAIN-suffix,foreignpolicy.com
+- DOMAIN-suffix,fortawesome.com
+- DOMAIN-suffix,freetls.fastly.net
+- DOMAIN-suffix,friday.tw
+- DOMAIN-suffix,ft.com
+- DOMAIN-suffix,ftchinese.com
+- DOMAIN-suffix,ftimg.net
+- DOMAIN-suffix,genius.com
+- DOMAIN-suffix,getlantern.org
+- DOMAIN-suffix,getsync.com
+- DOMAIN-suffix,globalvoices.org
+- DOMAIN-suffix,goo.ne.jp
+- DOMAIN-suffix,goodreads.com
+- DOMAIN-suffix,gov.tw
+- DOMAIN-suffix,gravatar.com
+- DOMAIN-suffix,greatfire.org
+- DOMAIN-suffix,gumroad.com
+- DOMAIN-suffix,heroku.com
+- DOMAIN-suffix,hightail.com
+- DOMAIN-suffix,hk01.com
+- DOMAIN-suffix,hkbf.org
+- DOMAIN-suffix,hkbookcity.com
+- DOMAIN-suffix,hkej.com
+- DOMAIN-suffix,hket.com
+- DOMAIN-suffix,hootsuite.com
+- DOMAIN-suffix,hudson.org
+- DOMAIN-suffix,huffpost.com
+- DOMAIN-suffix,hyread.com.tw
+- DOMAIN-suffix,ibtimes.com
+- DOMAIN-suffix,i-cable.com
+- DOMAIN-suffix,icij.org
+- DOMAIN-suffix,icoco.com
+- DOMAIN-suffix,imgur.com
+- DOMAIN-suffix,independent.co.uk
+- DOMAIN-suffix,initiummall.com
+- DOMAIN-suffix,inoreader.com
+- DOMAIN-suffix,insecam.org
+- DOMAIN-suffix,ipfs.io
+- DOMAIN-suffix,issuu.com
+- DOMAIN-suffix,istockphoto.com
+- DOMAIN-suffix,japantimes.co.jp
+- DOMAIN-suffix,jiji.com
+- DOMAIN-suffix,jinx.com
+- DOMAIN-suffix,jkforum.net
+- DOMAIN-suffix,joinclubhouse.com
+- DOMAIN-suffix,joinmastodon.org
+- DOMAIN-suffix,justmysocks.net
+- DOMAIN-suffix,justpaste.it
+- DOMAIN-suffix,kadokawa.co.jp
+- DOMAIN-suffix,kakao.com
+- DOMAIN-suffix,kakaocorp.com
+- DOMAIN-suffix,kik.com
+- DOMAIN-suffix,kingkong.com.tw
+- DOMAIN-suffix,knowyourmeme.com
+- DOMAIN-suffix,kobo.com
+- DOMAIN-suffix,kobobooks.com
+- DOMAIN-suffix,kodingen.com
+- DOMAIN-suffix,lemonde.fr
+- DOMAIN-suffix,lepoint.fr
+- DOMAIN-suffix,lihkg.com
+- DOMAIN-suffix,limbopro.xyz
+- DOMAIN-suffix,listennotes.com
+- DOMAIN-suffix,livestream.com
+- DOMAIN-suffix,logimg.jp
+- DOMAIN-suffix,logmein.com
+- DOMAIN-suffix,mail.ru
+- DOMAIN-suffix,mailchimp.com
+- DOMAIN-suffix,marc.info
+- DOMAIN-suffix,matters.news
+- DOMAIN-suffix,maying.co
+- DOMAIN-suffix,medium.com
+- DOMAIN-suffix,mega.nz
+- DOMAIN-suffix,mergersandinquisitions.com
+- DOMAIN-suffix,mingpao.com
+- DOMAIN-suffix,mixi.jp
+- DOMAIN-suffix,mixlr.com
+- DOMAIN-suffix,mobile01.com
+- DOMAIN-suffix,mubi.com
+- DOMAIN-suffix,myspace.com
+- DOMAIN-suffix,myspacecdn.com
+- DOMAIN-suffix,nanyang.com
+- DOMAIN-suffix,nationalinterest.org
+- DOMAIN-suffix,naver.com
+- DOMAIN-suffix,nbcnews.com
+- DOMAIN-suffix,ndr.de
+- DOMAIN-suffix,neowin.net
+- DOMAIN-suffix,newstapa.org
+- DOMAIN-suffix,nexitally.com
+- DOMAIN-suffix,nhk.or.jp
+- DOMAIN-suffix,nii.ac.jp
+- DOMAIN-suffix,nikkei.com
+- DOMAIN-suffix,nitter.net
+- DOMAIN-suffix,nofile.io
+- DOMAIN-suffix,now.com
+- DOMAIN-suffix,nrk.no
+- DOMAIN-suffix,nuget.org
+- DOMAIN-suffix,nyaa.si
+- DOMAIN-suffix,ok.ru
+- DOMAIN-suffix,on.cc
+- DOMAIN-suffix,orientaldaily.com.my
+- DOMAIN-suffix,overcast.fm
+- DOMAIN-suffix,paltalk.com
+- DOMAIN-suffix,parsevideo.com
+- DOMAIN-suffix,pawoo.net
+- DOMAIN-suffix,pbxes.com
+- DOMAIN-suffix,pcdvd.com.tw
+- DOMAIN-suffix,pchome.com.tw
+- DOMAIN-suffix,pcloud.com
+- DOMAIN-suffix,peing.net
+- DOMAIN-suffix,picacomic.com
+- DOMAIN-suffix,pinimg.com
+- DOMAIN-suffix,player.fm
+- DOMAIN-suffix,plurk.com
+- DOMAIN-suffix,po18.tw
+- DOMAIN-suffix,potato.im
+- DOMAIN-suffix,potatso.com
+- DOMAIN-suffix,prism-break.org
+- DOMAIN-suffix,proxifier.com
+- DOMAIN-suffix,pt.im
+- DOMAIN-suffix,pts.org.tw
+- DOMAIN-suffix,pubu.com.tw
+- DOMAIN-suffix,pubu.tw
+- DOMAIN-suffix,pureapk.com
+- DOMAIN-suffix,quora.com
+- DOMAIN-suffix,quoracdn.net
+- DOMAIN-suffix,qz.com
+- DOMAIN-suffix,radio.garden
+- DOMAIN-suffix,rakuten.co.jp
+- DOMAIN-suffix,rarbgprx.org
+- DOMAIN-suffix,reabble.com
+- DOMAIN-suffix,readingtimes.com.tw
+- DOMAIN-suffix,readmoo.com
+- DOMAIN-suffix,redbubble.com
+- DOMAIN-suffix,resilio.com
+- DOMAIN-suffix,reuters.com
+- DOMAIN-suffix,reutersmedia.net
+- DOMAIN-suffix,rfi.fr
+- DOMAIN-suffix,roadshow.hk
+- DOMAIN-suffix,rsshub.app
+- DOMAIN-suffix,scmp.com
+- DOMAIN-suffix,scribd.com
+- DOMAIN-suffix,seatguru.com
+- DOMAIN-suffix,shadowsocks.org
+- DOMAIN-suffix,shindanmaker.com
+- DOMAIN-suffix,shopee.tw
+- DOMAIN-suffix,signal.org
+- DOMAIN-suffix,sina.com.hk
+- DOMAIN-suffix,slideshare.net
+- DOMAIN-suffix,softfamous.com
+- DOMAIN-suffix,spiegel.de
+- DOMAIN-suffix,startpage.com
+- DOMAIN-suffix,steamcommunity.com
+- DOMAIN-suffix,steemit.com
+- DOMAIN-suffix,steemitwallet.com
+- DOMAIN-suffix,straitstimes.com
+- DOMAIN-suffix,streamable.com
+- DOMAIN-suffix,streema.com
+- DOMAIN-suffix,substack.com
+- DOMAIN-suffix,t66y.com
+- DOMAIN-suffix,tapatalk.com
+- DOMAIN-suffix,teco-hk.org
+- DOMAIN-suffix,teco-mo.org
+- DOMAIN-suffix,teddysun.com
+- DOMAIN-suffix,textnow.me
+- DOMAIN-suffix,theguardian.com
+- DOMAIN-suffix,theinitium.com
+- DOMAIN-suffix,themoviedb.org
+- DOMAIN-suffix,thetvdb.com
+- DOMAIN-suffix,time.com
+- DOMAIN-suffix,tineye.com
+- DOMAIN-suffix,tiny.cc
+- DOMAIN-suffix,tinyurl.com
+- DOMAIN-suffix,torproject.org
+- DOMAIN-suffix,tradingview.com
+- DOMAIN-suffix,tumblr.com
+- DOMAIN-suffix,turbobit.net
+- DOMAIN-suffix,tutanota.com
+- DOMAIN-suffix,tvboxnow.com
+- DOMAIN-suffix,udn.com
+- DOMAIN-suffix,unseen.is
+- DOMAIN-suffix,upmedia.mg
+- DOMAIN-suffix,uptodown.com
+- DOMAIN-suffix,urbandictionary.com
+- DOMAIN-suffix,ustream.tv
+- DOMAIN-suffix,uwants.com
+- DOMAIN-suffix,v2ex.com
+- DOMAIN-suffix,v2fly.org
+- DOMAIN-suffix,v2ray.com
+- DOMAIN-suffix,viber.com
+- DOMAIN-suffix,videopress.com
+- DOMAIN-suffix,vimeo.com
+- DOMAIN-suffix,voachinese.com
+- DOMAIN-suffix,voanews.com
+- DOMAIN-suffix,voxer.com
+- DOMAIN-suffix,vzw.com
+- DOMAIN-suffix,w3schools.com
+- DOMAIN-suffix,washingtonpost.com
+- DOMAIN-suffix,wattpad.com
+- DOMAIN-suffix,whoer.net
+- DOMAIN-suffix,wikiwand.com
+- DOMAIN-suffix,winudf.com
+- DOMAIN-suffix,wire.com
+- DOMAIN-suffix,wn.com
+- DOMAIN-suffix,wordpress.com
+- DOMAIN-suffix,worldcat.org
+- DOMAIN-suffix,wsj.com
+- DOMAIN-suffix,wsj.net
+- DOMAIN-suffix,xhamster.com
+- DOMAIN-suffix,xn--90wwvt03e.com
+- DOMAIN-suffix,xn--i2ru8q2qg.com
+- DOMAIN-suffix,xnxx.com
+- DOMAIN-suffix,xvideos.com
+- DOMAIN-suffix,yadi.sk
+- DOMAIN-suffix,yahoo.com
+- DOMAIN-suffix,yandex.ru
+- DOMAIN-suffix,ycombinator.com
+- DOMAIN-suffix,yesasia.com
+- DOMAIN-suffix,yes-news.com
+- DOMAIN-suffix,yomiuri.co.jp
+- DOMAIN-suffix,you-get.org
+- DOMAIN-suffix,zaobao.com
+- DOMAIN-suffix,zello.com
+- DOMAIN-suffix,zeronet.io
+- DOMAIN-suffix,z-lib.org
+- DOMAIN-suffix,zoom.us
+- DOMAIN,cc.tvbs.com.tw
+- DOMAIN,clubhouse.pubnubapi.com
+- DOMAIN,ocsp.int-x3.letsencrypt.org
+- DOMAIN,us.weibo.com
+- DOMAIN-suffix,edu
+- DOMAIN-suffix,gov
+- DOMAIN-suffix,mil
+- IP-CIDR,91.198.174.0/24
+- IP-CIDR,103.102.166.0/24
+- IP-CIDR,185.15.56.0/22
+- IP-CIDR,198.35.26.0/23
+- IP-CIDR,208.80.152.0/22
+- DOMAIN-suffix,noxinfluencer.com
+- DOMAIN-suffix,smartmailcloud.com
+- DOMAIN-suffix,weebly.com
+- DOMAIN-suffix,aicoin.com
+- DOMAIN-suffix,aimoon.com
+- DOMAIN-suffix,cccat.io
+- DOMAIN-suffix,dubox.com
+- DOMAIN-suffix,duboxcdn.com
+- DOMAIN-suffix,ifixit.com
+- DOMAIN-suffix,mangakakalot.com
+- DOMAIN-suffix,shopeemobile.com
+- DOMAIN-suffix,sushi.com
+- DOMAIN,cacerts.digicert.com
+- DOMAIN,crl3.digicert.com
+- DOMAIN,crl4.digicert.com
+- DOMAIN,ocsp.digicert.com
+- DOMAIN-suffix,cloudcone.com.cn
+- DOMAIN-suffix,inkbunny.net
+- DOMAIN-suffix,metapix.net
+- DOMAIN-suffix,s3.amazonaws.com
+- DOMAIN-suffix,zaobao.com.sg
+- DOMAIN,international-gfe.download.nvidia.com
