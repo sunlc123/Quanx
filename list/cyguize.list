@@ -87,7 +87,7 @@ HOST-SUFFIX,youtube.com,YouTube
 HOST-SUFFIX,ytimg.com,YouTube
 HOST,youtubei.googleapis.com,YouTube
 HOST,yt3.ggpht.com,YouTube
-HOST-keyword,youtu.be,YouTube
+HOST-KEYWORD,youtu.be,YouTube
 # > YouTubeMusic
 USER-AGENT,com.google.ios.youtubemusic*,YouTube
 USER-AGENT,YouTubeMusic*,YouTube
