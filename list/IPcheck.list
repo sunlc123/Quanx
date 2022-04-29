@@ -1,7 +1,7 @@
 #微博
-HOST-KEYWORD,weibo,IPcheck
+HOST-KEYWORD,weibo,IP_Check
 #抖音
-HOST-KEYWORD,douyin,IPcheck
-HOST-KEYWORD,amemv,IPcheck
-HOST-KEYWORD,zijie,IPcheck
-HOST-KEYWORD,zjcdn,IPcheck
+HOST-KEYWORD,douyin,IP_Check
+HOST-KEYWORD,amemv,IP_Check
+HOST-KEYWORD,zijie,IP_Check
+HOST-KEYWORD,zjcdn,IP_Check
