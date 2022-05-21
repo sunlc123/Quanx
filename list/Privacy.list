@@ -39,9 +39,6 @@ HOST,wc.51.la,REJECT
 # > 58
 HOST,track.58.com,REJECT
 HOST,tracklog.58.com,REJECT
-# > Baidu
-HOST,hm.baidu.com,REJECT
-HOST,hmma.baidu.com,REJECT
 # > Google
 HOST-SUFFIX,googletagmanager.com,REJECT
 HOST-SUFFIX,google-analytics.com,REJECT
