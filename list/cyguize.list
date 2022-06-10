@@ -162,6 +162,7 @@ HOST-SUFFIX,discordapp.net,♻️自用节选
 HOST-KEYWORD,discord.media,♻️自用节选
 
 # > Speedtest
+USER-AGENT,Speedtest,Speedtest
 HOST,5g.shunicomtest.com,Speedtest
 HOST,cmnet-speed.com,Speedtest
 HOST,owa.eastcom-sw.com,Speedtest
