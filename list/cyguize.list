@@ -165,6 +165,7 @@ HOST-KEYWORD,discord.media,♻️自用节选
 HOST,5g.shunicomtest.com,Speedtest
 HOST,cmnet-speed.com,Speedtest
 HOST,owa.eastcom-sw.com,Speedtest
-HOST,speedtest02.js165.com,Speedtest
+        HOST,speedtest02.js165.com,Speedtest
 HOST-KEYWORD,speedtest,Speedtest
-HOST-KEYWORD,speed.misaka.one,Speedtest
+HOST-KEYWORD,speed.misaka.one,  Speedtest
+HOST,ookla-hidc.hgconair.hgc.com.hk,Speedtest
