@@ -3,6 +3,7 @@ HOST,testflight.apple.com,TestFlight
 HOST, p22-buy.itunes.apple.com, 特殊域名
 HOST, buy.itunes.apple.com, 特殊域名
 HOST-SUFFIX,apple.co,特殊域名
+HOST, in.appcenter.ms, 特殊域名
 
 HOST-SUFFIX,aaplimg.com,苹果服务
 HOST-SUFFIX,apple.com,苹果服务
