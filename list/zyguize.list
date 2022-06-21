@@ -1,3 +1,7 @@
+# Emby
+ip-cidr, 194.180.179.1/23, Emby
+ip-cidr, 185.197.194.1/29, Emby
+
 # > 其他配置
 HOST-SUFFIX,bing.com,✅自用直连
 HOST, appraven.net, AppRaven
