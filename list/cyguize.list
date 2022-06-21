@@ -7,9 +7,10 @@ HOST-KEYWORD,paypal,Paypal
 
 # >Emby
 HOST, emby.cjpc.cc, Emby
-HOST, 134.195.101.38, Emby
 HOST-SUFFIX,jmsooo.com, Emby
 HOST-SUFFIX,play.charontv.com, Emby
+ip-cidr, 194.180.179.0/23, Emby
+ip-cidr, 185.197.194.0/29, Emby
 
 # > Telegram
 HOST-SUFFIX,telegra.ph,Telegram
