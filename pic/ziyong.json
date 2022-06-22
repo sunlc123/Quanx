@@ -12,7 +12,11 @@
     {
       "name": "United_States.png",
       "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/United_States.png"
-    }
+    },
+    {
+      "name": "bilibili.png",
+      "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/bilibili.png"
+    },
   ],
   "description": "自用 @wwweng"
 }
