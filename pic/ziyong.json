@@ -2,6 +2,10 @@
   "name": "wwweng自用图标",
   "icons": [
     {
+      "name": "xianlu.png",
+      "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/xianlu.png"
+    },
+    {
       "name": "Appraven.png",
       "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/Appraven.png"
     },
@@ -14,8 +18,12 @@
       "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/United_States.png"
     },
     {
-      "name": "bilibili.png",
-      "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/bilibili.png"
+      "name": "Proxy.png",
+      "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/Proxy.png"
+    },
+    {
+      "name": "Proxy.png",
+      "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/Proxy.png"
     },
   ],
   "description": "自用 @wwweng"
