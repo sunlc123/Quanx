@@ -1,0 +1,18 @@
+{
+  "name": "自用图标",
+  "icons": [
+    {
+      "name": "Appraven.png",
+      "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/Appraven.png"
+    },
+    {
+      "name": "bilibili.png",
+      "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/bilibili.png"
+    },
+    {
+      "name": "AR.png",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AR.png"
+    }
+  ],
+  "description": "自用 @wwweng"
+}
