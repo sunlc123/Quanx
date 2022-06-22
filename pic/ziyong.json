@@ -1,5 +1,5 @@
 {
-  "name": "自用图标",
+  "name": "wwweng自用图标",
   "icons": [
     {
       "name": "Appraven.png",
@@ -10,8 +10,8 @@
       "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/bilibili.png"
     },
     {
-      "name": "AR.png",
-      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AR.png"
+      "name": "United_States.png",
+      "url": "https://raw.githubusercontent.com/sunlc123/Quanx/main/pic/United_States.png"
     }
   ],
   "description": "自用 @wwweng"
