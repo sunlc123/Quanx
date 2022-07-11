@@ -1,2 +1,3 @@
-body = $request.body.replace(/"storefrontId" : ".*"/g, 'storefrontId = '143380-1,29' ');
-$done({body});
+let app = JSON.parse($request.body);
+app.storefrontId = '143441-19,29';
+$done({body:JSON.stringify(app)});
