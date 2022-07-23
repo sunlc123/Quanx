@@ -27,7 +27,6 @@ HOST, outlook.office.com, ✅自用直连
 HOST, outlook-1.cdn.office.net, ✅自用直连
 HOST, self.events.data.microsoft.com, ✅自用直连
 HOST, outlook.office365.com, ✅自用直连
-HOST, sgshort.wechat.com, ✅自用直连
 HOST, api.aliyundrive.com, ✅自用直连
 HOST, directory.getdrafts.com, ✅自用直连
 HOST, szextshort.weixin.qq.com, ✅自用直连
@@ -52,7 +51,6 @@ HOST-SUFFIX, deepl.com, ♻️自用节选
 HOST, ddl.ink, ♻️自用节选
 HOST, nature-photos.b-cdn.net, ♻️自用节选
 HOST, www.605xin.xyz, ⛔️自用禁连
-HOST, sgminorshort.wechat.com, ✅自用直连
 HOST, www.jqueryweb.com, ⛔️自用禁连
 HOST, www.jusebao.biz, ⛔️自用禁连
 HOST, 94122.info, ⛔️自用禁连
