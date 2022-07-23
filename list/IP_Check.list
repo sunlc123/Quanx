@@ -40,6 +40,7 @@ HOST,szshort.weixin.qq.com,IP_Check
 HOST,szextshort.weixin.qq.com,IP_Check
 HOST,szminorshort.weixin.qq.com,IP_Check
 HOST,mp.weixin.qq.com,IP_Check
+HOST,sgminorshort.wechat.com,IP_Check
 
 # ======= 知乎 ======= #
 #HOST,zhihu-web-analytics.zhihu.com,IP_Check
